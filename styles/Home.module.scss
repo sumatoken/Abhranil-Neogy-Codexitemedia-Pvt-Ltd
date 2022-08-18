@@ -54,6 +54,10 @@ $secondary: #d1a000;
   color: $secondary;
   text-decoration: none;
 }
+
+.seperateListItems {
+margin-right: 10px
+}
 @media (max-width: 600px) {
   .heading {
     text-align: center;

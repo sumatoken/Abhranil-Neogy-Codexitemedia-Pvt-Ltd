@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.scss";
+import styles from "../../styles/Home.module.scss";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import Image from "next/image";
@@ -18,14 +18,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailIcon from "@mui/icons-material/Mail";
-import {
-  Grid,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemIcon,
-  Typography,
-} from "@mui/material";
+import { Grid, List, ListItem, ListItemIcon, Typography } from "@mui/material";
 
 export default function Vision() {
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -40,28 +33,13 @@ export default function Vision() {
         justifyContent="center"
       >
         <div className={styles.container}>
-          <Head>
-            <title>Auric Asia</title>
-            <meta name="description" content="Auric Asia" />
-            <link rel="icon" href="/favicon.ico" />
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link
-              rel="preconnect"
-              href="https://fonts.gstatic.com"
-              crossOrigin
-            />
-            <link
-              href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-              rel="stylesheet"
-            />
-          </Head>
           <Grid item xs={12}>
             <h5 className={styles.subheading}>Vision & Mission</h5>
           </Grid>
           <Grid item xs={12}>
             <div className={styles.description}>
               <Typography
-                id="decorated-list-demo"
+                id="vision-title"
                 textTransform="uppercase"
                 fontWeight="lg"
                 mb={1}
@@ -70,7 +48,7 @@ export default function Vision() {
                 Vision
               </Typography>
               <List
-                aria-labelledby="decorated-list-demo"
+                aria-labelledby="vision-list"
                 sx={{ "--List-decorator-size": "32px" }}
               >
                 <ListItem>
@@ -95,7 +73,7 @@ export default function Vision() {
                 </ListItem>
               </List>
               <Typography
-                id="decorated-list-demo"
+                id="vision-titile"
                 level="body3"
                 textTransform="uppercase"
                 fontWeight="lg"
@@ -105,7 +83,7 @@ export default function Vision() {
                 Mission
               </Typography>
               <List
-                aria-labelledby="decorated-list-demo"
+                aria-labelledby="mission-list"
                 sx={{ "--List-decorator-size": "32px" }}
               >
                 <ListItem>

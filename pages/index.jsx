@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
+import { Fade } from "react-awesome-reveal";
 import Image from "next/image";
 import AccessibilityNewIcon from "@mui/icons-material/AccessibilityNew";
 import ElectricBoltIcon from "@mui/icons-material/ElectricBolt";
@@ -31,6 +32,14 @@ import {
   ListItemText,
   ListItemIcon,
 } from "@mui/material";
+import Vision from "../components/sections/Vision";
+import Core from "../components/sections/Core";
+import AboutUs from "../components/sections/AboutUs";
+import OurProduct from "../components/sections/OurProduct";
+import Ssm from "../components/sections/Ssm";
+import OurDirectors from "../components/sections/OurDirectors";
+import CorporateInfo from "../components/sections/CorporateInfo";
+import Introduction from "../components/sections/Introduction";
 
 export default function Home() {
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -98,19 +107,7 @@ export default function Home() {
         </Grid>
       </Grid>
       <div className={styles.container}>
-        <Head>
-          <title>Auric Asia</title>
-          <meta name="description" content="Auric Asia" />
-          <link rel="icon" href="/favicon.ico" />
-          <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-          <link
-            href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-            rel="stylesheet"
-          />
-        </Head>
-
-        <main className={styles.main}>
+        {/*  <main className={styles.main}>
           <p className={styles.description}>
             Auric Asia PLT is a company specialized in timber and biomass
             product, that provides innovative products and services to satisfy
@@ -134,8 +131,32 @@ export default function Home() {
             Mr. Saravanan@Ram <br />
             Managing Director
           </p>
-        </main>
+        </main> */}
       </div>
+      <Fade>
+        <Introduction />
+      </Fade>
+      <Fade>
+        <Vision />
+      </Fade>
+      <Fade>
+        <Core />
+      </Fade>
+      <Fade>
+        <OurProduct />
+      </Fade>
+      <Fade>
+        <Ssm />
+      </Fade>
+      <Fade>
+        <OurDirectors />
+      </Fade>
+      <Fade>
+        <CorporateInfo />
+      </Fade>
+      <Fade>
+        <AboutUs />
+      </Fade>
     </>
   );
 }
