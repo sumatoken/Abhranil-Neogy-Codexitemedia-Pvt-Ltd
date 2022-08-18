@@ -1,0 +1,20 @@
+$primary: #000;
+$secondary: #d1a000;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    color: $secondary;
+}
+.navbar a:hover{
+    color: white;
+}
+.heading {
+    color: #fff !important;
+    align-self: center !important;
+    font-size: 1.6em !important;
+    font-weight: bold !important;
+    margin-left: 1 !important;
+}

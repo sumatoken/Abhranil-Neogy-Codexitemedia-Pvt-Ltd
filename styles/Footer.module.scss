@@ -1,0 +1,32 @@
+$primary: #000;
+$secondary: #d1a000;
+.footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem;
+    border-top: 1px solid #969696;
+    justify-content: space-around;
+    align-items: center;
+}
+.iconList{
+    list-style-type: none;
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+}
+.iconListItem{
+    display: flex;
+}
+.icon {
+    color: $secondary;
+    vertical-align: bottom;
+}
+@media (max-width: 600px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        padding: 2rem;
+        border-top: 1px solid #969696;
+    }
+  }
