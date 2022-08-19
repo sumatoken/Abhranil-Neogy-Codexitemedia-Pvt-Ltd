@@ -19,7 +19,7 @@ $secondary: #d1a000;
   margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
-  color: rgb(102, 102, 102);
+  color: rgb(34, 30, 30);
 }
 .heading {
   // margin: 4rem 0;
@@ -72,6 +72,8 @@ margin-right: 10px
     color: $secondary;
     font-size: 6vw;
   }
-   
+   .subtitle {
+    font-size: 5vw;
+   }
        
 }

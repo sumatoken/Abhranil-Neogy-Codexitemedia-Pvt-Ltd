@@ -16,18 +16,18 @@ export default function OurProduct() {
       >
         <div className={styles.container}>
           <Grid item xs={12}>
-            <h5 className={styles.subheading}>Our Product</h5>
+            <h5 className={styles.subheading}>Our Products</h5>
           </Grid>
           <Grid item xs={12}>
             <div className={styles.description}>
               <Typography
                 id="product-subtitle"
-                textTransform="uppercase"
                 fontWeight="lg"
                 mb={1}
                 variant="h4"
+                className={styles.subheading}
               >
-                Malaysian Timber Product
+                Malaysian Timber Products
               </Typography>
               <List
                 aria-labelledby="mission-list"
@@ -73,6 +73,7 @@ export default function OurProduct() {
                 fontWeight="lg"
                 mb={1}
                 variant="h4"
+                className={styles.subheading}
               >
                 Palm Tree Based Products
               </Typography>

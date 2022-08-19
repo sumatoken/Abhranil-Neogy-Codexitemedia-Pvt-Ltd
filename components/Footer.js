@@ -37,37 +37,37 @@ const Footer = () => {
         <ul className={styles.iconList}>
           <h3>Quick Links</h3>
           <li className={styles.iconListItem}>
-            <a href="/">
+            <a href="/#aboutUs">
               <ArrowRightIcon className={styles.icon} />
               About Us
             </a>
           </li>
           <li className={styles.iconListItem}>
-            <a href="/">
+            <a href="/#corpInfo">
               <ArrowRightIcon className={styles.icon} />
               Corporate Information
             </a>
           </li>
           <li className={styles.iconListItem}>
-            <a href="/">
+            <a href="/#chart">
               <ArrowRightIcon className={styles.icon} />
               Mgmt. Org. Chart
             </a>
           </li>
           <li className={styles.iconListItem}>
-            <a href="/">
+            <a href="/#directors">
               <ArrowRightIcon className={styles.icon} />
               Our Director
             </a>
           </li>
           <li className={styles.iconListItem}>
-            <a href="/">
+            <a href="/#product">
               <ArrowRightIcon className={styles.icon} />
               Our Product
             </a>
           </li>
           <li className={styles.iconListItem}>
-            <a href="/">
+            <a href="/#ssm">
               <ArrowRightIcon className={styles.icon} />
               Company SSM & Info.
             </a>
@@ -82,7 +82,7 @@ const Footer = () => {
             <LocationOnIcon className={styles.icon} />
             <span>
               No.1-11, Suite 43A, Sentral Business Suites,
-              <br /> Jalan TKS 1, 43000 Kajang, Selangpr Darul Ehsan.
+              <br /> Jalan TKS 1, 43000 Kajang, Selangor Darul Ehsan.
             </span>
           </li>
           <br />
@@ -96,7 +96,7 @@ const Footer = () => {
           <br />
           <li className={styles.iconListItem}>
             <MailIcon className={styles.icon} />
-            <Link href="mailto:info@auricasia.com">info@auricasia.com</Link>
+            <Link href="mailto:admin@auricasia.com">admin@auricasia.com</Link>
           </li>
         </ul>
       </Box>

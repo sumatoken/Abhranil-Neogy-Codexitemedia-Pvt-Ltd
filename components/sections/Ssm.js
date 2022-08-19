@@ -20,15 +20,6 @@ export default function Ssm() {
           </Grid>
           <Grid item xs={12}>
             <div className={styles.description}>
-              <Typography
-                id="decorated-list-demo"
-                textTransform="uppercase"
-                fontWeight="lg"
-                mb={1}
-                variant="h4"
-              >
-                Vision
-              </Typography>
               <Image src="/ssm.png" width={400} height={500} />
             </div>
           </Grid>

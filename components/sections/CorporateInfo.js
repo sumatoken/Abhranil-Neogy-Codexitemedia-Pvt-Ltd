@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "../../styles/Home.module.scss";
 
-export default function AboutUs() {
+export default function CorporateInfo() {
   return (
     <div id="corpInfo">
       <Grid

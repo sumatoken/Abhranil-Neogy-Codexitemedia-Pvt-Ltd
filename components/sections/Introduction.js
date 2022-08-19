@@ -2,7 +2,7 @@ import { Grid, List, ListItem, Typography } from "@mui/material";
 import React from "react";
 import styles from "../../styles/Home.module.scss";
 
-export default function AboutUs() {
+export default function Introduction() {
   return (
     <>
       <Grid

@@ -34,20 +34,10 @@ export default function Vision() {
         justifyContent="center"
       >
         <div className={styles.container}>
-          <Grid item xs={12}>
-            <h5 className={styles.subheading}>Vision & Mission</h5>
-          </Grid>
+          <Grid item xs={12}></Grid>
           <Grid item xs={12}>
             <div className={styles.description}>
-              <Typography
-                id="vision-title"
-                textTransform="uppercase"
-                fontWeight="lg"
-                mb={1}
-                variant="h4"
-              >
-                Vision
-              </Typography>
+              <h5 className={styles.subheading}>Vision</h5>
               <List
                 aria-labelledby="vision-list"
                 sx={{ "--List-decorator-size": "32px" }}
@@ -73,16 +63,7 @@ export default function Vision() {
                   added industry.
                 </ListItem>
               </List>
-              <Typography
-                id="vision-titile"
-                level="body3"
-                textTransform="uppercase"
-                fontWeight="lg"
-                mb={1}
-                variant="h4"
-              >
-                Mission
-              </Typography>
+              <h5 className={styles.subheading}>Mission</h5>
               <List
                 aria-labelledby="mission-list"
                 sx={{ "--List-decorator-size": "32px" }}
