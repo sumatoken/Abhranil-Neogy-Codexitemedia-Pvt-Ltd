@@ -61,7 +61,9 @@ export default function CorporateInfo() {
                 <ListItemIcon sx={{ marginRight: "40px" }}>
                   Website:{" "}
                 </ListItemIcon>{" "}
-                <Link href="www.auricasia.com.my">www.auricasia.com.my</Link>
+                <Link href="https://www.auricasia.com.my">
+                  www.auricasia.com.my
+                </Link>
               </ListItem>
               <ListItem>
                 <ListItemIcon sx={{ marginRight: "40px" }}>
