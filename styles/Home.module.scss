@@ -68,18 +68,10 @@ margin-right: 10px
 @media (max-width: 600px) {
   .heading {
     text-align: center;
-    position: absolute;
-    top: 12%;
-    left: 32%;
+ 
     color: $secondary;
     font-size: 6vw;
   }
-    .subheading{
-      text-align: center;
-      color: $secondary;
-      font-size: 100px;
-    }
-        .subtitle {
-          font-size: 4vw;
-        }
+   
+       
 }
