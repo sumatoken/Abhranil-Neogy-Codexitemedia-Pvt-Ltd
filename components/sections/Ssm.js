@@ -29,7 +29,7 @@ export default function Ssm() {
               >
                 Vision
               </Typography>
-              <Image src="/ssm.png" width={300} height={500} />
+              <Image src="/ssm.png" width={400} height={500} />
             </div>
           </Grid>
         </div>
