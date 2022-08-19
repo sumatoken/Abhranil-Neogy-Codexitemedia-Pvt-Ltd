@@ -6,6 +6,7 @@ export default function AboutUs() {
   return (
     <>
       <Grid
+        id="directors"
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}

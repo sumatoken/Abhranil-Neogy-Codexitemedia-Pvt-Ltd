@@ -34,6 +34,13 @@ $secondary: #d1a000;
     color: $secondary;
     margin: 0.5vw;
 }
+.subtitle {
+    text-align: center;
+    font-size: 2vw;
+    color: $secondary;
+    margin: 0.5vw;
+  }
+
 .left{
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -67,12 +74,12 @@ margin-right: 10px
     color: $secondary;
     font-size: 6vw;
   }
-    .subheadingheading {
+    .subheading{
       text-align: center;
-      position: absolute;
-      top: 12%;
-      left: 32%;
       color: $secondary;
       font-size: 100px;
     }
+        .subtitle {
+          font-size: 4vw;
+        }
 }

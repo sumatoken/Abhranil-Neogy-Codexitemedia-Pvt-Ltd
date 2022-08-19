@@ -19,19 +19,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import MailIcon from "@mui/icons-material/Mail";
-import {
-  Button,
-  Container,
-  Stack,
-  Tooltip,
-  Divider,
-  Box,
-  Grid,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemIcon,
-} from "@mui/material";
+import { Button, Box, Grid } from "@mui/material";
 import Vision from "../components/sections/Vision";
 import Core from "../components/sections/Core";
 import AboutUs from "../components/sections/AboutUs";
@@ -40,6 +28,8 @@ import Ssm from "../components/sections/Ssm";
 import OurDirectors from "../components/sections/OurDirectors";
 import CorporateInfo from "../components/sections/CorporateInfo";
 import Introduction from "../components/sections/Introduction";
+import Chart from "../components/sections/Chart";
+import Gallery from "../components/sections/Gallery";
 
 export default function Home() {
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -133,9 +123,7 @@ export default function Home() {
           </p>
         </main> */}
       </div>
-      <Fade>
-        <Introduction />
-      </Fade>
+
       <Fade>
         <Vision />
       </Fade>
@@ -143,19 +131,22 @@ export default function Home() {
         <Core />
       </Fade>
       <Fade>
-        <OurProduct />
-      </Fade>
-      <Fade>
-        <Ssm />
-      </Fade>
-      <Fade>
-        <OurDirectors />
+        <AboutUs />
       </Fade>
       <Fade>
         <CorporateInfo />
       </Fade>
       <Fade>
-        <AboutUs />
+        <Chart />
+      </Fade>
+      <Fade>
+        <OurDirectors />
+      </Fade>
+      <Fade>
+        <OurProduct />
+      </Fade>
+      <Fade>
+        <Ssm />
       </Fade>
     </>
   );

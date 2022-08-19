@@ -5,8 +5,9 @@ import styles from "../../styles/Home.module.scss";
 
 export default function AboutUs() {
   return (
-    <>
+    <div id="corpInfo">
       <Grid
+        id="corpInfo"
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}
@@ -72,6 +73,6 @@ export default function AboutUs() {
           </div>
         </div>
       </Grid>
-    </>
+    </div>
   );
 }

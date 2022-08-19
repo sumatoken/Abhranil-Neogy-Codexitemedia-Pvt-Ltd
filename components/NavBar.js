@@ -88,28 +88,28 @@ const NavBar = () => {
 
         <ListItem
           button
-          onClick={() => router.push("/vision").then(() => setDrawer(false))}
+          onClick={() => router.push("/#vision").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Vision & Mission" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() => router.push("/#core").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Core Values" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() => router.push("/#aboutUs").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="About Us" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() => router.push("/#corpInfo").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Corporate Information" />
@@ -119,28 +119,30 @@ const NavBar = () => {
 
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() => router.push("/#chart").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Mgmt. Org. Chart" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() =>
+            router.push("/#directors").then(() => setDrawer(false))
+          }
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Our Director" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() => router.push("/#product").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Our Product" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() => router.push("/#ssm").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Company SSM & Info." />
@@ -212,7 +214,7 @@ const NavBar = () => {
             }}
           >
             <Button
-              href="/vision"
+              href="/#vision"
               sx={{
                 my: 1,
                 display: "flex",
@@ -224,7 +226,7 @@ const NavBar = () => {
             </Button>
 
             <Button
-              href="/"
+              href="/#core"
               sx={{
                 my: 1,
                 display: "flex",
@@ -236,7 +238,7 @@ const NavBar = () => {
             </Button>
 
             <Button
-              href="/"
+              href="/#aboutUs"
               sx={{
                 my: 1,
                 display: "flex",
@@ -247,7 +249,7 @@ const NavBar = () => {
               <b>About Us</b>
             </Button>
             <Button
-              href="/"
+              href="/#corpInfo"
               sx={{
                 my: 1,
                 display: "flex",
@@ -259,7 +261,7 @@ const NavBar = () => {
             </Button>
 
             <Button
-              href="/"
+              href="/#chart"
               sx={{
                 my: 1,
                 display: "flex",
@@ -271,7 +273,7 @@ const NavBar = () => {
             </Button>
 
             <Button
-              href="/"
+              href="/#directors"
               sx={{
                 my: 1,
                 display: "flex",
@@ -282,7 +284,7 @@ const NavBar = () => {
               <b>Our Director</b>
             </Button>
             <Button
-              href="/"
+              href="/#product"
               sx={{
                 my: 1,
                 display: "flex",
@@ -294,7 +296,7 @@ const NavBar = () => {
             </Button>
 
             <Button
-              href="/"
+              href="/#ssm"
               sx={{
                 my: 1,
                 display: "flex",

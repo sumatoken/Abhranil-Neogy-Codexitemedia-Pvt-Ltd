@@ -7,6 +7,7 @@ export default function Ssm() {
   return (
     <>
       <Grid
+        id="ssm"
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}

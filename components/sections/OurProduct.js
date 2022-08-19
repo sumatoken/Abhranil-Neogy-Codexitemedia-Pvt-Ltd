@@ -7,6 +7,7 @@ export default function OurProduct() {
   return (
     <>
       <Grid
+        id="product"
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}
