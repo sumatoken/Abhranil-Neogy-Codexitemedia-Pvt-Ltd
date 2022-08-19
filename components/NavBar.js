@@ -149,7 +149,7 @@ const NavBar = () => {
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/").then(() => setDrawer(false))}
+          onClick={() => router.push("/gallery").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Gallery" />
@@ -308,7 +308,7 @@ const NavBar = () => {
             </Button>
 
             <Button
-              href="/"
+              href="/gallery"
               sx={{
                 my: 1,
                 display: "flex",

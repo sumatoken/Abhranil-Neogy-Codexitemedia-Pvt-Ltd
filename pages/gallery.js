@@ -1,10 +1,14 @@
 import { Grid, List, ListItem, Typography } from "@mui/material";
 import Image from "next/image";
 import React from "react";
-import styles from "../../styles/Home.module.scss";
+import SwipeableViews from "react-swipeable-views";
+import { autoPlay } from "react-swipeable-views-utils";
+import styles from "../styles/Home.module.scss";
 
 export default function Gallery() {
   const numberOfImagesArrayLoop = Array.from(Array(18).keys());
+  const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
+
   return (
     <>
       <Grid
@@ -15,11 +19,14 @@ export default function Gallery() {
         alignItems="center"
         justifyContent="center"
       >
-        <SwipeableViews>
-          {numberOfImagesArrayLoop.map((n, key) => (
-            <Image src={`/gallery-${key + 1}`} width={400} height={500} />
-          ))}
-        </SwipeableViews>
+        {numberOfImagesArrayLoop.map((n, key) => (
+          <Image
+            key={key}
+            src={`/gallery-${key + 1}.png`}
+            width={400}
+            height={500}
+          />
+        ))}
       </Grid>
     </>
   );
