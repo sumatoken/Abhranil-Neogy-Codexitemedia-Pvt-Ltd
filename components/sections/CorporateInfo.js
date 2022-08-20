@@ -5,76 +5,106 @@ import styles from "../../styles/Home.module.scss";
 
 export default function CorporateInfo() {
   return (
-    <div id="corpInfo">
-      <Grid
-        id="corpInfo"
-        container
-        spacing={1}
-        sx={{ background: "#F1E5AC", display: "flex" }}
-        alignItems="center"
-        justifyContent="center"
-      >
-        <div className={styles.container}>
-          <Grid item xs={12}>
-            <h5 className={styles.subheading}> Corporate Information</h5>
-          </Grid>
-          <div className={styles.description}>
-            <List
-              aria-labelledby="mission-list"
-              sx={{ "--List-decorator-size": "32px" }}
-            >
-              <ListItem>
-                <ListItemIcon sx={{ marginRight: "10px" }}>
-                  SSM Registration No:
-                </ListItemIcon>
-                LLP0016968-LGN
-              </ListItem>
-              <ListItem>
-                <ListItemIcon sx={{ marginRight: "40px" }}>
-                  Date Of Incorporation:
-                </ListItemIcon>{" "}
-                26 June 2018
-              </ListItem>
-              <ListItem>
-                <ListItemIcon sx={{ marginRight: "40px" }}>
-                  Board Of Directors:
-                </ListItemIcon>{" "}
-                Saravanan Muthaiyah <br />
-                Kamala Seelan Kamala Segaran
-              </ListItem>
-              <ListItem>
-                <ListItemIcon sx={{ marginRight: "40px" }}>
-                  Business Address:
-                </ListItemIcon>{" "}
-                No.1-11, SUITE 43A, Sentral Business Suites, Jalan TKS 1, 43000
-                Kajang, Selangor Darul Ehsan, Malaysia
-              </ListItem>
-              <ListItem>
-                <ListItemIcon sx={{ marginRight: "40px" }}>
-                  Office No:
-                </ListItemIcon>
-                <Link href="mailto: abc@example.com">
-                  admin@auricasia.com.my
-                </Link>
-              </ListItem>
-              <ListItem>
-                <ListItemIcon sx={{ marginRight: "40px" }}>
-                  Website:{" "}
-                </ListItemIcon>{" "}
-                <Link href="https://www.auricasia.com.my">
-                  www.auricasia.com.my
-                </Link>
-              </ListItem>
-              <ListItem>
-                <ListItemIcon sx={{ marginRight: "40px" }}>
-                  Bank Facilities:{" "}
-                </ListItemIcon>{" "}
-                CIMB Bank Berhad, Malaysia
-              </ListItem>
-            </List>
-          </div>
+    /*  <>
+      <h5 className={styles.subheading}>Corporate Information</h5>
+      <div id="corpInfo" className="flex flex-col">
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>SSM Registration:</span>
+          <span className={styles.subtitle}>LLP0016968-LGN</span>
         </div>
-      </Grid>
-    </div>
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>SDate Of Incorporation:</span>
+          <span className={styles.subtitle}>26 June 2018</span>
+        </div>
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>Board Of Directors:</span>
+          <span className={styles.subtitle}>
+            1. Saravanan Muthaiyah 2. Kamala Seelan Kamala Segaran
+          </span>
+        </div>
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>Business Address:</span>
+          <span className={styles.subtitle}>
+            No.1-11, SUITE 43A, Sentral Business Suites, Jalan TKS 1, 43000
+            Kajang, Selangor Darul Ehsan, Malaysia
+          </span>
+        </div>
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>Office No. :</span>
+          <span className={styles.subtitle}>
+            {" "}
+            <Link href="tel: +60387427681">+603-87427681</Link>
+          </span>
+        </div>
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>Email Address:</span>
+          <span className={styles.subtitle}>
+            {" "}
+            <Link href="mailto: admin@auricasia.com.my">
+              admin@auricasia.com.my
+            </Link>
+          </span>
+        </div>
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>Website :</span>
+          <span className={styles.subtitle}>
+            {" "}
+            <Link href="https://www.auricasia.com.my">
+              www.auricasia.com.my
+            </Link>
+          </span>
+        </div>
+        <div className="flex flex-row justify-center">
+          <span className={styles.subtitle}>Bank Facilities:</span>
+          <span className={styles.subtitle}> CIMB Bank Berhad, Malaysia</span>
+        </div>
+   
+       
+      </div>
+    </> */
+    <>
+      <h5 className={styles.subheading}>Corporate Information</h5>
+      <div id="corpInfo" className="flex flex-row justify-around m-2">
+        <div className="flex flex-col">
+          <span className={styles.subtitle}>SSM Registration:</span>
+          <span className={styles.subtitle}>Date Of Incorporation:</span>
+          <span className={styles.subtitle}>Board Of Directors:</span>
+          <span className={styles.subtitle}>Business Address:</span>
+          <span className={styles.subtitle}>Office No:</span>
+          <span className={styles.subtitle}>Email Address:</span>
+          <span className={styles.subtitle}>Website:</span>
+          <span className={styles.subtitle}>Bank Facilities:</span>
+        </div>
+        <div className="flex flex-col">
+          <span className={styles.subtitle}>LLP0016968-LGN</span>
+          <span className={styles.subtitle}>26 June 2018</span>
+          <span className={styles.subtitle}>
+            1. Saravanan Muthaiyah 2. Kamala Seelan{" "}
+          </span>
+          <span className={styles.address}>
+            {" "}
+            No.1-11, SUITE 43A, Sentral Business Suites, Jalan TKS 1, 43000
+            Kajang, Selangor Darul Ehsan, Malaysia
+          </span>
+          <span className={styles.subtitle}>
+            {" "}
+            <Link href="tel: +60387427681">+603-87427681</Link>
+          </span>
+          <span className={styles.subtitle}>
+            {" "}
+            <Link href="mailto: admin@auricasia.com.my">
+              admin@auricasia.com.my
+            </Link>
+          </span>
+          <span className={styles.subtitle}>
+            {" "}
+            <Link href="mailto: admin@auricasia.com.my">
+              admin@auricasia.com.my
+            </Link>
+          </span>
+          <span className={styles.subtitle}> CIMB Bank Berhad, Malaysia</span>
+        </div>
+      </div>
+    </>
   );
 }

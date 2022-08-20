@@ -1,9 +1,7 @@
 $primary: #000;
 $secondary: #d1a000;
 
-.container {
-  padding: 0 2rem;
-}
+
 
 .main {
   min-height: 100vh;
@@ -16,7 +14,7 @@ $secondary: #d1a000;
 
 .description {
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 2rem;
   line-height: 1.5;
   font-size: 1.5rem;
   color: rgb(34, 30, 30);
@@ -40,6 +38,11 @@ $secondary: #d1a000;
     color: $secondary;
     margin: 0.5vw;
   }
+  .address {
+    text-align: center;
+      font-size: 1.6vw;
+      color: $secondary;
+     }
 
 .left{
   padding-top: 50px !important;
@@ -72,8 +75,13 @@ margin-right: 10px
     color: $secondary;
     font-size: 6vw;
   }
+  .subheading {
+    font-size: 8vw;
+    font-style: oblique;
+  }
    .subtitle {
-    font-size: 5vw;
+    font-size: 6vw;
+      word-break: break-word;
    }
        
 }

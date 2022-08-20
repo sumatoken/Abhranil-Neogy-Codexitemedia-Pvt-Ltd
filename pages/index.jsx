@@ -144,6 +144,9 @@ export default function Home() {
       <Fade>
         <Ssm />
       </Fade>
+      <Fade>
+        <Gallery />
+      </Fade>
     </>
   );
 }
