@@ -12,7 +12,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="footer">
       <Box>
         <Image src="/aalogo.png" width="100%" height="90%" />
         <p>

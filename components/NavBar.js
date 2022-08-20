@@ -149,10 +149,17 @@ const NavBar = () => {
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/gallery").then(() => setDrawer(false))}
+          onClick={() => router.push("/#gallery").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Gallery" />
+        </ListItem>
+        <ListItem
+          button
+          onClick={() => router.push("/#footer").then(() => setDrawer(false))}
+          sx={{ textTransform: "none", fontSize: fontSize }}
+        >
+          <ListItemText primary="Contact Us" />
         </ListItem>
       </List>
     </Box>
@@ -308,7 +315,7 @@ const NavBar = () => {
             </Button>
 
             <Button
-              href="/gallery"
+              href="/#gallery"
               sx={{
                 my: 1,
                 display: "flex",
@@ -317,6 +324,17 @@ const NavBar = () => {
               }}
             >
               <b>Gallery</b>
+            </Button>
+            <Button
+              href="/#footer"
+              sx={{
+                my: 1,
+                display: "flex",
+                textTransform: "none",
+                fontSize: fontSize,
+              }}
+            >
+              <b>Contact Us</b>
             </Button>
           </Box>
 
