@@ -69,11 +69,11 @@ export default function CorporateInfo() {
           <span className={styles.subtitle}>SSM Registration:</span>
           <span className={styles.subtitle}>Date Of Incorporation:</span>
           <span className={styles.subtitle}>Board Of Directors:</span>
-          <span className={styles.subtitle}>Business Address:</span>
           <span className={styles.subtitle}>Office No:</span>
           <span className={styles.subtitle}>Email Address:</span>
           <span className={styles.subtitle}>Website:</span>
           <span className={styles.subtitle}>Bank Facilities:</span>
+          <span className={styles.subtitle}>Business Address:</span>
         </div>
         <div className="flex flex-col">
           <span className={styles.subtitle}>LLP0016968-LGN</span>
@@ -81,11 +81,7 @@ export default function CorporateInfo() {
           <span className={styles.subtitle}>
             1. Saravanan Muthaiyah 2. Kamala Seelan{" "}
           </span>
-          <span className={styles.address}>
-            {" "}
-            No.1-11, SUITE 43A, Sentral Business Suites, Jalan TKS 1, 43000
-            Kajang, Selangor Darul Ehsan, Malaysia
-          </span>
+
           <span className={styles.subtitle}>
             {" "}
             <Link href="tel: +60387427681">+603-87427681</Link>
@@ -103,6 +99,11 @@ export default function CorporateInfo() {
             </Link>
           </span>
           <span className={styles.subtitle}> CIMB Bank Berhad, Malaysia</span>
+          <span className={styles.address}>
+            {" "}
+            No.1-11, SUITE 43A, Sentral Business Suites, Jalan TKS 1, 43000
+            Kajang, Selangor Darul Ehsan, Malaysia
+          </span>
         </div>
       </div>
     </>
