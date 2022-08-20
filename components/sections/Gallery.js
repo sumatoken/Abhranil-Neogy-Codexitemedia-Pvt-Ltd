@@ -11,6 +11,7 @@ export default function Gallery() {
 
   return (
     <>
+      <h5 className={styles.subheading}>Gallery</h5>
       <Grid
         id="gallery"
         container
