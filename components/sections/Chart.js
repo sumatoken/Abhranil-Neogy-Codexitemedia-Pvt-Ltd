@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import styles from "../../styles/Home.module.scss";
 
@@ -20,9 +21,13 @@ const Card = ({ title, employee }) => {
 export default function Chart() {
   return (
     <div className={styles.description} style={{ background: "#fff" }}>
-      <div id="chart" className="flex flex-col gap-4 items-center p-2">
-        <h5 className={styles.subheading}>Management Organisation Chart</h5>
-
+      <div id="chart" className="z-10 flex flex-col gap-4 items-center p-2">
+        <div className="w-full mb-[100px]">
+          <h5 className={styles.subheading}>Management Organisation Chart</h5>
+        </div>
+        <div className="z-0 mb-[-650px] hidden md:hidden lg:block xl:block">
+          <Image src={`/frame.png`} width={1000} height={500} />
+        </div>
         <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
           <span className={styles.subtitle}>
             <b>Board Of Directors</b>
@@ -41,37 +46,37 @@ export default function Chart() {
           employee="Mr. K.S.Kamala Seelan"
         />
         <br />
-        <div className="w-full hidden md:hidden lg:flex xl:flex flex-col md:flex-row lg:flex-row xl:flex-row gap-12 ">
-          <div className="z-10 w-full md:w-1/3 lg:w-1/3 xl:w-1/3 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
+        <div className="w-full hidden md:hidden lg:flex xl:flex flex-col md:flex-row lg:flex-row xl:flex-row gap-12 justify-between">
+          <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
             <span className={styles.subtitle}>
               <b>Head Of Finance</b>
             </span>
             <b>Ms. K.K.Preety</b>
           </div>
           <div
-            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-28"
+            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/4 lg:w-1/4 xl:w-1/4 h-28"
             style={{ backgroundColor: "#e9bf35" }}
           ></div>
 
-          <div className="z-10 w-full md:w-1/3 lg:w-1/3 xl:w-1/3 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
+          <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
             <span className={styles.subtitle}>
               <b>Operations Manager</b>
             </span>
             <b>Mr. Syukri Bin Abdul Rahim</b>
           </div>
           <div
-            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-28"
+            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/4 lg:w-1/4 xl:w-1/4 h-28"
             style={{ backgroundColor: "#e9bf35" }}
           ></div>
 
-          <div className="z-10 w-full md:w-1/3 lg:w-1/3 xl:w-1/3 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
+          <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
             <span className={styles.subtitle}>
               <b>Head Of Administration</b>
             </span>
             <b>Ms. Nursyerin Abdullah</b>
           </div>
           <div
-            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-28"
+            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/4 lg:w-1/4 xl:w-1/4 h-28"
             style={{ backgroundColor: "#e9bf35" }}
           ></div>
         </div>
