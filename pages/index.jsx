@@ -30,6 +30,7 @@ import CorporateInfo from "../components/sections/CorporateInfo";
 import Introduction from "../components/sections/Introduction";
 import Chart from "../components/sections/Chart";
 import Gallery from "../components/sections/Gallery";
+import Market from "../components/sections/Market";
 
 export default function Home() {
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -96,9 +97,9 @@ export default function Home() {
           <img className={styles.image} src="/logs.jpg" width="100%" />
         </Grid>
       </Grid>
-      <div className={styles.container}>
+      {/*   <div className={styles.container}>
         <Fade>
-          <main className={styles.description}>
+          <main className={styles.description} style={{ marginBottom: "25px" }}>
             Auric Asia PLT is a company specialized in timber and biomass
             product, that provides innovative products and services to satisfy
             the needs. We handle all kinds of product related to trees, ranging
@@ -118,16 +119,16 @@ export default function Home() {
             offering unparalleled support.
           </main>
         </Fade>
-      </div>
+      </div> */}
 
+      <Fade>
+        <AboutUs />
+      </Fade>
       <Fade>
         <Vision />
       </Fade>
       <Fade>
         <Core />
-      </Fade>
-      <Fade>
-        <AboutUs />
       </Fade>
       <Fade>
         <CorporateInfo />
@@ -139,10 +140,13 @@ export default function Home() {
         <OurDirectors />
       </Fade>
       <Fade>
+        <Ssm />
+      </Fade>
+      <Fade>
         <OurProduct />
       </Fade>
       <Fade>
-        <Ssm />
+        <Market />
       </Fade>
       <Fade>
         <Gallery />

@@ -69,7 +69,6 @@ export default function OurProduct() {
             <div className={styles.description}>
               <Typography
                 id="product-subtitle"
-                textTransform="uppercase"
                 fontWeight="lg"
                 mb={1}
                 variant="h4"

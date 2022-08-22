@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
+import ContactUs from "./sections/ContactUs";
 
 const Layout = ({ children }) => {
   return (
@@ -18,7 +19,7 @@ const Layout = ({ children }) => {
       </Head>
       <NavBar />
       {children}
-      <Footer />
+      <ContactUs />
     </>
   );
 };

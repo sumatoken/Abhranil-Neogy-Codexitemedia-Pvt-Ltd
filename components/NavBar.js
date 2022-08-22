@@ -102,14 +102,14 @@ const NavBar = () => {
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/#aboutUs").then(() => setDrawer(false))}
+          onClick={() => router.push("/aboutUs").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="About Us" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/#corpInfo").then(() => setDrawer(false))}
+          onClick={() => router.push("/corpInfo").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Corporate Information" />
@@ -131,14 +131,14 @@ const NavBar = () => {
           }
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Our Director" />
+          <ListItemText primary="Our Directors" />
         </ListItem>
         <ListItem
           button
           onClick={() => router.push("/#product").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Our Product" />
+          <ListItemText primary="Our Products" />
         </ListItem>
         <ListItem
           button
@@ -149,17 +149,17 @@ const NavBar = () => {
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/#gallery").then(() => setDrawer(false))}
+          onClick={() => router.push("/#market").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Gallery" />
+          <ListItemText primary="Export Market" />
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/#footer").then(() => setDrawer(false))}
+          onClick={() => router.push("/#gallery").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Contact Us" />
+          <ListItemText primary="Our Gallery" />
         </ListItem>
       </List>
     </Box>
@@ -208,7 +208,9 @@ const NavBar = () => {
                 width={imageWidth}
                 height={imageHeight}
               />
-              <Typography className={styles.heading}>Auric Asia</Typography>
+              <Typography className={styles.heading}>
+                <span style={{ color: "#d1a000" }}> Auric Asia</span>
+              </Typography>
             </Box>
           </Link>
 
@@ -288,7 +290,7 @@ const NavBar = () => {
                 fontSize: fontSize,
               }}
             >
-              <b>Our Director</b>
+              <b>Our Directors</b>
             </Button>
             <Button
               href="/#product"
@@ -299,7 +301,7 @@ const NavBar = () => {
                 fontSize: fontSize,
               }}
             >
-              <b>Our Product</b>
+              <b>Our Products</b>
             </Button>
 
             <Button
@@ -313,7 +315,17 @@ const NavBar = () => {
             >
               <b>Company SSM & Info.</b>
             </Button>
-
+            <Button
+              href="/#market"
+              sx={{
+                my: 1,
+                display: "flex",
+                textTransform: "none",
+                fontSize: fontSize,
+              }}
+            >
+              <b>Export Market</b>
+            </Button>
             <Button
               href="/#gallery"
               sx={{
@@ -323,18 +335,7 @@ const NavBar = () => {
                 fontSize: fontSize,
               }}
             >
-              <b>Gallery</b>
-            </Button>
-            <Button
-              href="/#footer"
-              sx={{
-                my: 1,
-                display: "flex",
-                textTransform: "none",
-                fontSize: fontSize,
-              }}
-            >
-              <b>Contact Us</b>
+              <b>Our Gallery</b>
             </Button>
           </Box>
 
@@ -357,7 +358,7 @@ const NavBar = () => {
                 }}
                 className={styles.heading}
               >
-                Auric Asia
+                <span style={{ color: "#d1a000" }}> Auric Asia</span>
               </Typography>
             </Box>
           </Link>

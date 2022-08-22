@@ -2,6 +2,17 @@ $primary: #000;
 $secondary: #d1a000;
 
 
+.contact {
+
+  background-image: url("https: //media.istockphoto.com/videos/black-food-background-concept-for-design-menu-restaurant-or-cafe-copy-video-id1201294000?s=640x640");
+  background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  opacity: 0.6;
+}
+.contact {
+  color: #d1a000;
+}
 
 .main {
   min-height: 100vh;
@@ -21,14 +32,18 @@ $secondary: #d1a000;
 }
 .heading {
   // margin: 4rem 0;
+  
   font-size: 8vw;
-  color: $primary;
+  color: $secondary;
   margin: 0.5vw;
 }
+
+
 
 .subheading {
   text-align: center;
   font-size: 6vw;
+  font-weight: bold;
     color: $secondary;
     margin: 0.5vw;
 }

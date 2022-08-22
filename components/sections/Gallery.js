@@ -4,9 +4,13 @@ import React from "react";
 import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import styles from "../../styles/Home.module.scss";
-
+import Carousel from "react-gallery-carousel";
+import "react-gallery-carousel/dist/index.css";
 export default function Gallery() {
   const numberOfImagesArrayLoop = Array.from(Array(18).keys());
+  const images = numberOfImagesArrayLoop.map((num) => ({
+    src: `/gallery/gallery-${num + 1}.png`,
+  }));
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
   return (
@@ -20,14 +24,7 @@ export default function Gallery() {
         alignItems="center"
         justifyContent="center"
       >
-        {numberOfImagesArrayLoop.map((n, key) => (
-          <Image
-            key={key}
-            src={`/gallery-${key + 1}.png`}
-            width={400}
-            height={500}
-          />
-        ))}
+        <Carousel images={images} style={{ height: 500, width: 800 }} />
       </Grid>
     </>
   );
