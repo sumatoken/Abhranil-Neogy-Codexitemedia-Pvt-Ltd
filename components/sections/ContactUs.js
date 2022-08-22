@@ -8,9 +8,9 @@ import Link from "next/link";
 import Image from "next/image";
 export default function ContactUs() {
   return (
-    <div className="flex flex-row ">
+    <div className="flex flex-col md:flex-row lg:flex-row   ">
       <div
-        className="w-1/2 flex flex-col border rounded-lg border-yellow-300 p-4"
+        className="w-full flex flex-col border rounded-lg border-yellow-300 p-4"
         style={{
           color: "#d1a000",
         }}
@@ -87,7 +87,7 @@ export default function ContactUs() {
         </div>
       </div>
       <div
-        className="w-1/2 flex flex-col border rounded-lg border-yellow-300 p-4"
+        className="w-full flex flex-col border rounded-lg border-yellow-300 p-4"
         style={{
           color: "#d1a000",
         }}
