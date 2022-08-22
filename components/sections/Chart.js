@@ -32,7 +32,7 @@ export default function Chart() {
         </div>
 
         <div
-          className="z-0 rounded-lg mt-[-120px] mr-20 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-32  ring-4 ring-white"
+          className="z-0 rounded-lg mt-[-120px] ml-[-20px] w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-32  ring-4 ring-white"
           style={{ backgroundColor: "#e9bf35" }}
         ></div>
         <Card title="Managing Director" employee="Mr. M.Saravanan" />

@@ -109,7 +109,7 @@ const NavBar = () => {
 
         <ListItem
           button
-          onClick={() => router.push("/corpInfo").then(() => setDrawer(false))}
+          onClick={() => router.push("/#corpInfo").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Corporate Information" />
