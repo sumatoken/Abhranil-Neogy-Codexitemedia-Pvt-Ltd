@@ -1,40 +1,111 @@
 import React from "react";
 import styles from "../../styles/Home.module.scss";
 
-const Item = ({ children }) => {
-  return <>{children}</>;
+const Card = ({ title, employee }) => {
+  return (
+    <>
+      <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-2">
+        <span className={styles.subtitle}>
+          <b>{title}</b>
+        </span>
+        <b>{employee}</b>
+      </div>
+      <div
+        className="z-0 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 rounded-lg mt-[-100px] mr-20  h-28"
+        style={{ backgroundColor: "#e9bf35" }}
+      ></div>
+    </>
+  );
 };
 export default function Chart() {
   return (
-    <div className={styles.description} style={{ background: "#F1E5AC" }}>
-      <div id="chart" className="flex flex-col items-center p-2">
+    <div className={styles.description} style={{ background: "#fff" }}>
+      <div id="chart" className="flex flex-col gap-4 items-center p-2">
         <h5 className={styles.subheading}>Management Organisation Chart</h5>
-        <div className="flex flex-col p-2 items-center rounded-lg border border-gold-200 shadow-md mt-2">
-          <span className={styles.subtitle}>Board Of Directors</span>
+
+        <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
+          <span className={styles.subtitle}>
+            <b>Board Of Directors</b>
+          </span>
           <b>1. Mr. M.Saravanan</b>
           <b>2. Mr. K.S.Kamala Seelan</b>
         </div>
-        <div className="flex flex-col p-2 items-center rounded-lg border border-gold-200 shadow-md m-2">
-          <span className={styles.subtitle}>Managing Director</span>
-          <b>Mr. M.Saravanan</b>
-        </div>
-        <div className="flex flex-col p-2 items-center m-2 rounded-lg border border-gold-200 shadow-md">
-          <span className={styles.subtitle}>Operations Director</span>
-          <b>Mr. K.S.Kamala Seelan</b>
-        </div>
-        <div className="flex flex-row">
-          <div className="flex flex-col p-2 items-center rounded-lg border border-gold-200 shadow-md m-2">
-            <span className={styles.subtitle}>Head Of Finance</span>
+
+        <div
+          className="z-0 rounded-lg mt-[-120px] mr-20 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-32  ring-4 ring-white"
+          style={{ backgroundColor: "#e9bf35" }}
+        ></div>
+        <Card title="Managing Director" employee="Mr. M.Saravanan" />
+        <Card
+          title="Head Of AdministrationDirector"
+          employee="Mr. K.S.Kamala Seelan"
+        />
+        <br />
+        <div className="w-full hidden md:hidden lg:flex xl:flex flex-col md:flex-row lg:flex-row xl:flex-row gap-12 ">
+          <div className="z-10 w-full md:w-1/3 lg:w-1/3 xl:w-1/3 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
+            <span className={styles.subtitle}>
+              <b>Head Of Finance</b>
+            </span>
             <b>Ms. K.K.Preety</b>
           </div>
-          <div className="flex flex-col p-2 items-center rounded-lg border border-gold-200 shadow-md m-2">
-            <span className={styles.subtitle}>Operations Manager</span>
+          <div
+            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-28"
+            style={{ backgroundColor: "#e9bf35" }}
+          ></div>
+
+          <div className="z-10 w-full md:w-1/3 lg:w-1/3 xl:w-1/3 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
+            <span className={styles.subtitle}>
+              <b>Operations Manager</b>
+            </span>
             <b>Mr. Syukri Bin Abdul Rahim</b>
           </div>
-          <div className="flex flex-col p-2 items-center rounded-lg border border-gold-200 shadow-md m-2">
-            <span className={styles.subtitle}>Head Of Administration</span>
+          <div
+            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-28"
+            style={{ backgroundColor: "#e9bf35" }}
+          ></div>
+
+          <div className="z-10 w-full md:w-1/3 lg:w-1/3 xl:w-1/3 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
+            <span className={styles.subtitle}>
+              <b>Head Of Administration</b>
+            </span>
             <b>Ms. Nursyerin Abdullah</b>
           </div>
+          <div
+            className="z-0 rounded-lg mt-[-10px] ml-[-540px]  w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-28"
+            style={{ backgroundColor: "#e9bf35" }}
+          ></div>
+        </div>
+        <div className="w-full flex md:flex lg:hidden xl:hidden flex-col gap-4">
+          <div className="z-10 w-full  flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-2">
+            <span className={styles.subtitle}>
+              <b>Head Of Finance</b>
+            </span>
+            <b>Ms. K.K.Preety</b>
+          </div>
+          <div
+            className="z-0 w-full rounded-lg mt-[-80px] mr-20  h-20 mb-6"
+            style={{ backgroundColor: "#e9bf35" }}
+          ></div>
+          <div className="z-10 w-full  flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-2">
+            <span className={styles.subtitle}>
+              <b>Operations Manager</b>
+            </span>
+            <b>Mr. Syukri Bin Abdul Rahim</b>
+          </div>
+          <div
+            className="z-0 w-full rounded-lg mt-[-80px]  mr-20  h-20 mb-6"
+            style={{ backgroundColor: "#e9bf35" }}
+          ></div>
+          <div className="z-10 w-full  flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-2">
+            <span className={styles.subtitle}>
+              <b>Head Of Administration</b>
+            </span>
+            <b>Ms. Nursyerin Abdullah</b>
+          </div>
+          <div
+            className="z-0 w-full rounded-lg mt-[-80px] mr-20  h-20 mb-6"
+            style={{ backgroundColor: "#e9bf35" }}
+          ></div>
         </div>
       </div>
     </div>

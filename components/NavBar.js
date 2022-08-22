@@ -87,7 +87,7 @@ const NavBar = () => {
         <Divider />
         <ListItem
           button
-          onClick={() => router.push("/aboutUs").then(() => setDrawer(false))}
+          onClick={() => router.push("/#aboutUs").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="About Us" />

@@ -32,7 +32,7 @@ $secondary: #d1a000;
 }
 .heading {
   // margin: 4rem 0;
-  
+    word-break: break-all;
   font-size: 8vw;
   color: $secondary;
   margin: 0.5vw;
@@ -46,11 +46,13 @@ $secondary: #d1a000;
   font-weight: bold;
     color: $secondary;
     margin: 0.5vw;
+      word-break: break-all;
 }
 .subtitle {
     text-align: center;
     font-size: 2vw;
     color: $secondary;
+      word-break: break-all;
     margin: 0.5vw;
   }
   .address {
