@@ -78,25 +78,26 @@ const Footer = () => {
       <Box sx={{ display: { xs: "none", md: "flex" } }}>
         <ul className={styles.iconList}>
           <h3>Connect With Us</h3>
-          <li className={styles.iconListItem}>
-            <LocationOnIcon className={styles.icon} />
-            <span>
-              No.1-11, Suite 43A, Sentral Business Suites,
-              <br /> Jalan TKS 1, 43000 Kajang, Selangor Darul Ehsan.
-            </span>
-          </li>
+
           <br />
           <li className={styles.iconListItem}>
-            <PhoneIcon className={styles.icon} />
-            <Link href="tel: +60192100978">+601-9210-0978</Link>
-            <span style={{ marginLeft: "10px" }}></span>
             <PhoneIcon className={styles.icon} />
             <Link href="tel:+60179800081">+601-7980-0081</Link>
           </li>
           <br />
           <li className={styles.iconListItem}>
             <MailIcon className={styles.icon} />
-            <Link href="mailto:admin@auricasia.com">admin@auricasia.com</Link>
+            <Link href="mailto:info@auricasia.com.my">
+              info@auricasia.com.my
+            </Link>
+          </li>
+          <br />
+          <li className={styles.iconListItem}>
+            <LocationOnIcon className={styles.icon} />
+            <span>
+              No.1-11, Suite 43A, Sentral Business Suites,
+              <br /> Jalan TKS 1, 43000 Kajang, Selangor Darul Ehsan.
+            </span>
           </li>
         </ul>
       </Box>

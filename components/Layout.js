@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
       </Head>
       <NavBar />
       {children}
-      <ContactUs />
+      <Footer />
     </>
   );
 };

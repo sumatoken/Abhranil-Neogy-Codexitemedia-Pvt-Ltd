@@ -85,7 +85,13 @@ const NavBar = () => {
     >
       <List>
         <Divider />
-
+        <ListItem
+          button
+          onClick={() => router.push("/aboutUs").then(() => setDrawer(false))}
+          sx={{ textTransform: "none", fontSize: fontSize }}
+        >
+          <ListItemText primary="About Us" />
+        </ListItem>
         <ListItem
           button
           onClick={() => router.push("/#vision").then(() => setDrawer(false))}
@@ -100,13 +106,7 @@ const NavBar = () => {
         >
           <ListItemText primary="Core Values" />
         </ListItem>
-        <ListItem
-          button
-          onClick={() => router.push("/aboutUs").then(() => setDrawer(false))}
-          sx={{ textTransform: "none", fontSize: fontSize }}
-        >
-          <ListItemText primary="About Us" />
-        </ListItem>
+
         <ListItem
           button
           onClick={() => router.push("/corpInfo").then(() => setDrawer(false))}
@@ -135,18 +135,19 @@ const NavBar = () => {
         </ListItem>
         <ListItem
           button
-          onClick={() => router.push("/#product").then(() => setDrawer(false))}
-          sx={{ textTransform: "none", fontSize: fontSize }}
-        >
-          <ListItemText primary="Our Products" />
-        </ListItem>
-        <ListItem
-          button
           onClick={() => router.push("/#ssm").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Company SSM & Info." />
         </ListItem>
+        <ListItem
+          button
+          onClick={() => router.push("/#product").then(() => setDrawer(false))}
+          sx={{ textTransform: "none", fontSize: fontSize }}
+        >
+          <ListItemText primary="Our Products" />
+        </ListItem>
+
         <ListItem
           button
           onClick={() => router.push("/#market").then(() => setDrawer(false))}
@@ -160,6 +161,13 @@ const NavBar = () => {
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
           <ListItemText primary="Our Gallery" />
+        </ListItem>
+        <ListItem
+          button
+          onClick={() => router.push("/#footer").then(() => setDrawer(false))}
+          sx={{ textTransform: "none", fontSize: fontSize }}
+        >
+          <ListItemText primary="Contact Us" />
         </ListItem>
       </List>
     </Box>
@@ -223,6 +231,17 @@ const NavBar = () => {
             }}
           >
             <Button
+              href="/#aboutUs"
+              sx={{
+                my: 1,
+                display: "flex",
+                textTransform: "none",
+                fontSize: fontSize,
+              }}
+            >
+              <b>About Us</b>
+            </Button>
+            <Button
               href="/#vision"
               sx={{
                 my: 1,
@@ -246,17 +265,6 @@ const NavBar = () => {
               <b>Core Values</b>
             </Button>
 
-            <Button
-              href="/#aboutUs"
-              sx={{
-                my: 1,
-                display: "flex",
-                textTransform: "none",
-                fontSize: fontSize,
-              }}
-            >
-              <b>About Us</b>
-            </Button>
             <Button
               href="/#corpInfo"
               sx={{
@@ -293,6 +301,17 @@ const NavBar = () => {
               <b>Our Directors</b>
             </Button>
             <Button
+              href="/#ssm"
+              sx={{
+                my: 1,
+                display: "flex",
+                textTransform: "none",
+                fontSize: fontSize,
+              }}
+            >
+              <b>Company SSM & Info.</b>
+            </Button>
+            <Button
               href="/#product"
               sx={{
                 my: 1,
@@ -304,17 +323,6 @@ const NavBar = () => {
               <b>Our Products</b>
             </Button>
 
-            <Button
-              href="/#ssm"
-              sx={{
-                my: 1,
-                display: "flex",
-                textTransform: "none",
-                fontSize: fontSize,
-              }}
-            >
-              <b>Company SSM & Info.</b>
-            </Button>
             <Button
               href="/#market"
               sx={{
@@ -336,6 +344,17 @@ const NavBar = () => {
               }}
             >
               <b>Our Gallery</b>
+            </Button>
+            <Button
+              href="/#footer"
+              sx={{
+                my: 1,
+                display: "flex",
+                textTransform: "none",
+                fontSize: fontSize,
+              }}
+            >
+              <b>Contact Us.</b>
             </Button>
           </Box>
 
