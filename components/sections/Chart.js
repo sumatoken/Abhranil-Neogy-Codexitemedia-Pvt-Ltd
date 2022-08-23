@@ -41,10 +41,7 @@ export default function Chart() {
           style={{ backgroundColor: "#e9bf35" }}
         ></div>
         <Card title="Managing Director" employee="Mr. M.Saravanan" />
-        <Card
-          title="Head Of AdministrationDirector"
-          employee="Mr. K.S.Kamala Seelan"
-        />
+        <Card title="Operations Director" employee="Mr. K.S.Kamala Seelan" />
         <br />
         <div className="w-full hidden md:hidden lg:flex xl:flex flex-col md:flex-row lg:flex-row xl:flex-row gap-12 justify-between">
           <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
@@ -69,7 +66,7 @@ export default function Chart() {
             style={{ backgroundColor: "#e9bf35" }}
           ></div>
 
-          <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-0">
+          <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ml-[-60px]ring-gray-300">
             <span className={styles.subtitle}>
               <b>Head Of Administration</b>
             </span>
