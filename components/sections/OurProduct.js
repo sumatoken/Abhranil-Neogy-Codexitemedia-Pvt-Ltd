@@ -13,30 +13,30 @@ export default function OurProduct() {
         </h5>
       </div>
       <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
-        <div className="w-full p-4 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
+        <div className="w-full p-4 m-1 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
           <span className={styles.subtitle}>
             <b className="text-black"> Malaysian Tropical Timber Product</b>
           </span>
-          <div className="flex flex-wrap gap-1 p-2">
+          <div className="flex flex-wrap gap-2 p-2">
            
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               {" "}
               Customize Pallet
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               {" "}
               Finger-jointed lumber
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               Sawdust wood pellet
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               Sawn timber
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               Polywood
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">MDF</span>
+            <span className="rounded-xl px-3 bg-amber-600 text-white">MDF</span>
           </div>
           <div className={styles.description}>
             Import and export of Malaysian tropical wood based products. We are
@@ -50,22 +50,22 @@ export default function OurProduct() {
             compliance to the MTIB specifications.
           </div>
         </div>
-        <div className="w-full p-4 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
+        <div className="w-full p-4 m-1 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
           <span className={styles.subtitle}>
             {" "}
             <b className="text-black">Palm Tree Based Products </b>
           </span>
-          <div className="flex flex-wrap gap-1 p-2">
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+          <div className="flex flex-wrap gap-2 p-2">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               Palm Kernel Cake/ Palm Kernel Expeller
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               Palm Kernel Shell
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               Empty Fruit Bunch Pellet
             </span>
-            <span className="rounded-xl px-3 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-600 text-white">
               Palm Kernel Shell (Carbonized)
             </span>
           </div>
