@@ -19,24 +19,24 @@ export default function OurProduct() {
           </span>
           <div className="flex flex-wrap gap-1 p-2">
            
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               {" "}
               Customize Pallet
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               {" "}
               Finger-jointed lumber
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               Sawdust wood pellet
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               Sawn timber
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               Polywood
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">MDF</span>
+            <span className="rounded-xl px-3 bg-amber-500 text-white">MDF</span>
           </div>
           <div className={styles.description}>
             Import and export of Malaysian tropical wood based products. We are
@@ -55,17 +55,17 @@ export default function OurProduct() {
             {" "}
             <b className="text-black">Palm Tree Based Products </b>
           </span>
-          <div className="flex flex-wrap p-2">
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+          <div className="flex flex-wrap gap-1 p-2">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               Palm Kernel Cake/ Palm Kernel Expeller
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               Palm Kernel Shell
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               Empty Fruit Bunch Pellet
             </span>
-            <span className="rounded-lg px-2 bg-amber-500 text-white">
+            <span className="rounded-xl px-3 bg-amber-500 text-white">
               Palm Kernel Shell (Carbonized)
             </span>
           </div>
