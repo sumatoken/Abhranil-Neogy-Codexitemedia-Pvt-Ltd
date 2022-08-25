@@ -2,7 +2,10 @@ import React from "react";
 import styles from "../../styles/Home.module.scss";
 import EmailIcon from "@mui/icons-material/Email";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import FaxIcon from "@mui/icons-material/Fax";
 import Link from "next/link";
+import Image from "next/image";
 export default function OurDirectors() {
   return (
     <div className="flex flex-col md:flex-row lg:flex-row   ">
