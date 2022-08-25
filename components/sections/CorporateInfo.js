@@ -11,8 +11,8 @@ export default function CorporateInfo() {
       <h5 className={styles.subheading}>
         Corporate Information
       </h5>
-      <div className="flex flex-col items-center gap-4">
-        <div className="flex flex-row items-center">
+      <div className="flex flex-col justify-evenly gap-2">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>SSM Registration:</b>
           </span>
@@ -21,7 +21,7 @@ export default function CorporateInfo() {
             <b>LLP0016968-LGN</b>
           </span>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>Date Of Incorporation:</b>
           </span>
@@ -30,7 +30,7 @@ export default function CorporateInfo() {
             <b>26 June 2018</b>
           </span>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>Board Of Directors:</b>
           </span>
@@ -42,7 +42,7 @@ export default function CorporateInfo() {
             </b>
           </span>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>Business Address:</b>
           </span>
@@ -54,7 +54,7 @@ export default function CorporateInfo() {
             </b>
           </span>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>Office No:</b>
           </span>
@@ -65,7 +65,7 @@ export default function CorporateInfo() {
             </Link>
           </span>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>Email Add:</b>
           </span>
@@ -76,7 +76,7 @@ export default function CorporateInfo() {
             </Link>
           </span>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>Website:</b>
           </span>
@@ -87,7 +87,7 @@ export default function CorporateInfo() {
             </Link>
           </span>
         </div>
-        <div className="flex flex-row items-center">
+        <div className="w-full flex flex-row">
           <span className={styles.subtitle}>
             <b>Bank Facilities:</b>
           </span>

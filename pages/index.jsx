@@ -100,7 +100,7 @@ export default function Home() {
           <img className={styles.image} src="/logs.jpg" width="100%" />
       
         </Grid>
-        <span id="aboutUs"></span>
+    
       </Grid>
 
       {/*   <div className={styles.container}>
