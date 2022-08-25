@@ -124,56 +124,33 @@ export default function Home() {
 
       <Fade>
         <AboutUs />
-          
       </Fade>
       <Fade>
-        <div id="vision">
-
         <Vision />
-        </div>
       </Fade>
       <Fade>
-        <div id="core">
-
         <Core />
-        </div>
       </Fade>
       <Fade>
-        <div id="corpInfo">
-
         <CorporateInfo />
-        </div>
       </Fade>
       <Fade>
         <Chart />
       </Fade>
       <Fade>
-        <div id="directors">
         <OurDirectors />
-        </div>
       </Fade>
       <Fade>
-        <div id="ssm">
         <Ssm />
-        </div>
-          
       </Fade>
       <Fade>
-        
-
         <OurProduct />
       </Fade>
       <Fade>
-        <div id="market">
-
         <Market />
-        </div>
       </Fade>
       <Fade>
-        <div id="gallery">
-          
         <Gallery />
-        </div>
       </Fade>
     </>
   );
