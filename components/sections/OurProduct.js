@@ -7,10 +7,10 @@ export default function OurProduct() {
    <>
       <span id="product"></span>
     
-    <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
-       <div className="bg-[#F1E5AC] w-full">
+       <div className="bg-[#F1E5AC] w-full h-full p-0 m-0">
       <h5 className={styles.subheading} ><b>Our Products</b></h5>
       </div>
+    <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
       <div className="w-full p-4 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
         <span className={styles.subtitle}>
           Malaysian Tropical Timber Product
