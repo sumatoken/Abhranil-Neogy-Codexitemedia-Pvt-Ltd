@@ -6,6 +6,7 @@ import styles from "../../styles/Home.module.scss";
 export default function CorporateInfo() {
   return (
     <>
+ <div className="w-full pt-[50px] mt-[50px]">
 
       <h5 className={styles.subheading}>
         Corporate Information
@@ -96,6 +97,7 @@ export default function CorporateInfo() {
           </span>
         </div>
       </div>
+ </div>
       <span id="chart"></span>
     </>
   );

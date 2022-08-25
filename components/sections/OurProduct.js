@@ -6,6 +6,7 @@ export default function OurProduct() {
   return (
     <>
       
+      <div className="w-full pt-[50px] mt-[50px]">
 
       <div className=" w-full h-full p-0 m-0">
         <h5 className={styles.subheading}>
@@ -82,7 +83,8 @@ export default function OurProduct() {
           </div>
         </div>
       </div>
-      <span id="market"></span>
+      </div>
+      <span id="market" ></span>
     </>
   );
 }

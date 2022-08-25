@@ -14,7 +14,7 @@ export default function Gallery() {
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
   return (
-    <><span id="gallery"></span>
+    <div className="w-full pt-[50px] mt-[50px]">
       <h5 className={styles.subheading}>Gallery</h5>
       <Grid
 
@@ -26,6 +26,8 @@ export default function Gallery() {
       >
         <Carousel images={images} style={{ height: 500, width: 800 }} />
       </Grid>
-    </>
+    
+    </div>
   );
 }
+

@@ -126,7 +126,7 @@ export default function Home() {
           </main>
         </Fade>
       </div> */}
-
+      <span id="aboutUs"></span>
       <Fade>
         <AboutUs />
       </Fade>
