@@ -9,7 +9,7 @@ export default function OurDirectors() {
       <h5 className={styles.subheading}>Our Directors</h5>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-2">
         <div className="break-all bg-gray-100 w-full flex flex-col flex-wrap content-start p-2  m-2 rounded-lg border border-gold-200 shadow-md">
-          <span className={styles.subtitle}>SARAVANAN S/O MUTHAIYAH</span>
+          <span className={styles.subtitle}>SARAVANAN.M@RAM</span>
           <b>Managing Director</b>
           <div className="flex flex-row items-center">
             <EmailIcon
@@ -40,7 +40,7 @@ export default function OurDirectors() {
         </div>
         <div className="break-all bg-gray-100 w-full flex flex-col flex-wrap content-start p-2  m-2 rounded-lg border border-gold-200 shadow-md">
           <span className={styles.subtitle}>
-            KAMALA SEELAN S/O KAMALA SEGARAN
+           K.S.KAMALA SEELAN
           </span>
           <b>Operations Director</b>
           <div className="flex flex-row items-center">

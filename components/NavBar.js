@@ -112,7 +112,7 @@ const NavBar = () => {
           onClick={() => router.push("/#corpInfo").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Corporate Information" />
+          <ListItemText primary="Corp Info" />
         </ListItem>
 
         <Divider />
@@ -122,7 +122,7 @@ const NavBar = () => {
           onClick={() => router.push("/#chart").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Mgmt. Org. Chart" />
+          <ListItemText primary="Chart" />
         </ListItem>
         <ListItem
           button
@@ -131,7 +131,7 @@ const NavBar = () => {
           }
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Our Directors" />
+          <ListItemText primary="Directors" />
         </ListItem>
         <ListItem
           button
@@ -145,7 +145,7 @@ const NavBar = () => {
           onClick={() => router.push("/#product").then(() => setDrawer(false))}
           sx={{ textTransform: "none", fontSize: fontSize }}
         >
-          <ListItemText primary="Our Products" />
+          <ListItemText primary="Products" />
         </ListItem>
 
         <ListItem
@@ -274,7 +274,7 @@ const NavBar = () => {
                 fontSize: fontSize,
               }}
             >
-              <b>Corporate Information</b>
+              <b>Corp Info</b>
             </Button>
 
             <Button
@@ -286,7 +286,7 @@ const NavBar = () => {
                 fontSize: fontSize,
               }}
             >
-              <b>Mgmt. Org. Chart</b>
+              <b>Chart</b>
             </Button>
 
             <Button
@@ -298,7 +298,7 @@ const NavBar = () => {
                 fontSize: fontSize,
               }}
             >
-              <b>Our Directors</b>
+              <b> Directors</b>
             </Button>
             <Button
               href="/#ssm"
@@ -320,7 +320,7 @@ const NavBar = () => {
                 fontSize: fontSize,
               }}
             >
-              <b>Our Products</b>
+              <b>Products</b>
             </Button>
 
             <Button

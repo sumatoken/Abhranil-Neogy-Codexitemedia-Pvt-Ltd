@@ -87,8 +87,8 @@ const Footer = () => {
           <br />
           <li className={styles.iconListItem}>
             <MailIcon className={styles.icon} />
-            <Link href="mailto:info@auricasia.com.my">
-              info@auricasia.com.my
+            <Link href="mailto:admin@auricasia.com.my">
+              admin@auricasia.com.my
             </Link>
           </li>
           <br />
