@@ -8,7 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 export default function OurDirectors() {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row   ">
+    <div className="flex flex-col md:flex-row lg:flex-row   mt-4">
       <div
         className="w-full flex flex-col border rounded-lg border-yellow-300 p-4"
         style={{
