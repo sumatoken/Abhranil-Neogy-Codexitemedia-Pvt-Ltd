@@ -122,9 +122,7 @@ export default function Home() {
       </div> */}
 
       <Fade>
-        <div id="aboutUs">
         <AboutUs />
-        </div>
           
       </Fade>
       <Fade>

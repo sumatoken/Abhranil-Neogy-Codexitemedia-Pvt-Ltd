@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <>
       <Grid
-        id="aboutUs"
+       
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}
@@ -15,7 +15,7 @@ export default function AboutUs() {
       >
         <div className={styles.container}>
           <Grid item xs={12}>
-            <h5 className={styles.subheading}>About us</h5>
+            <h5 className={styles.subheading} id="aboutUs">About us</h5>
           </Grid>
           <Grid item xs={12}>
             <div className={styles.description}>

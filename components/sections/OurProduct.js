@@ -5,20 +5,21 @@ import React from "react";
 export default function OurProduct() {
   return (
     <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
-      <div className="w-full p-4 rounded bg-[#d1a000] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
+      <h5 className={styles.subheading} id="">Our Products</h5>
+      <div className="w-full p-4 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
         <span className={styles.subtitle}>
           Malaysian Tropical Timber Product
         </span>
-        <div className="flex justify-between p-2">
-          <span className="rounded-lg p-2 bg-amber-700">. Sawn timber</span>
-          <span className="rounded-lg p-2 bg-amber-700">Polywood</span>
-          <span className="rounded-lg p-2 bg-amber-700">MDF</span>
-          <span className="rounded-lg p-2 bg-amber-700"> Customize Pallet</span>
-          <span className="rounded-lg p-2 bg-amber-700">
+        <div className="flex flex-wrap gap-2 justify-between p-2">
+          <span className="rounded-lg px-2 bg-amber-700">. Sawn timber</span>
+          <span className="rounded-lg px-2 bg-amber-700">Polywood</span>
+          <span className="rounded-lg px-2 bg-amber-700">MDF</span>
+          <span className="rounded-lg px-2 bg-amber-700"> Customize Pallet</span>
+          <span className="rounded-lg px-2 bg-amber-700">
             {" "}
             Finger-jointed lumber
           </span>
-          <span className="rounded-lg p-2 bg-amber-700">
+          <span className="rounded-lg px-2 bg-amber-700">
             Sawdust wood pellet
           </span>
         </div>
@@ -36,15 +37,15 @@ export default function OurProduct() {
       </div>
       <div className="w-full p-4 rounded bg-[#d1a000] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
         <span className={styles.subtitle}>Palm Tree Based Products</span>
-        <div className="flex justify-between p-2">
-          <span className="rounded-lg p-2 bg-amber-700">Palm Kernel Shell</span>
-          <span className="rounded-lg p-2 bg-amber-700">
+        <div className="flex flex-wrap gap-2 p-2">
+          <span className="rounded-lg px-2 bg-amber-700">Palm Kernel Shell</span>
+          <span className="rounded-lg px-2 bg-amber-700">
             Palm Kernel Cake/ Palm Kernel Expeller
           </span>
-          <span className="rounded-lg p-2 bg-amber-700">
+          <span className="rounded-lg px-2 bg-amber-700">
             . Empty Fruit Bunch Pellet
           </span>
-          <span className="rounded-lg p-2 bg-amber-700">
+          <span className="rounded-lg px-2 bg-amber-700">
             . Palm Kernel Shell (Carbonized)
           </span>
         </div>
