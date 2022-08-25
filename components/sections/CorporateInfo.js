@@ -6,7 +6,8 @@ import styles from "../../styles/Home.module.scss";
 export default function CorporateInfo() {
   return (
     <>
-      <table class="table-fixed">
+    <div className="w-full flex items-center align-center justify-center">
+    <table class="table-fixed">
         <tbody>
           <tr>
             <td>
@@ -146,6 +147,7 @@ export default function CorporateInfo() {
           </tr>
         </tbody>
       </table>
+    </div>
       <span id="chart"></span>
     </>
   );
