@@ -25,7 +25,7 @@ export default function Vision() {
 
   return (
     <>
-    <span id="vission"></span>
+  
       <Grid
         container
         spacing={1}
@@ -79,6 +79,7 @@ export default function Vision() {
           </Grid>
         </div>
       </Grid>
+      <span id="core"></span>
     </>
   );
 }

@@ -28,7 +28,7 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Core() {
   return (
     <>
-    <span id="core"></span>
+   
       <Grid
       
         container
@@ -156,6 +156,7 @@ export default function Core() {
           </Grid>
         </div>
       </Grid>
+      <span id="corpInfo"></span>
     </>
   );
 }

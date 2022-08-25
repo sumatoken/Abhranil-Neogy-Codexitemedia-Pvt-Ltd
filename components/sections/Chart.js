@@ -21,7 +21,7 @@ const Card = ({ title, employee }) => {
 export default function Chart() {
   return (
     <div className={styles.description} style={{ background: "#fff" }}>
-      <span id="chart"></span>
+      
       <div id="chart" className="z-10 flex flex-col gap-4 items-center p-2">
         <div className="w-full mb-[100px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
@@ -111,6 +111,7 @@ export default function Chart() {
           ></div>
         </div>
       </div>
+      <span id="directors"></span>
     </div>
   );
 }

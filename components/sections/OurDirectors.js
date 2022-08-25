@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function OurDirectors() {
   return (
     <div style={{ background: "#F1E5AC" }}>
-      <span id="directors p-10"></span>
+      
       <h5 className={styles.subheading}>Our Directors</h5>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-2">
         <div className="break-all bg-gray-100 w-full flex flex-col flex-wrap content-start p-2  m-2 rounded-lg border border-gold-200 shadow-md">
@@ -72,6 +72,7 @@ export default function OurDirectors() {
           </div>
         </div>
       </div>
+      <span id="ssm"></span>
     </div>
   );
 }

@@ -24,6 +24,7 @@ export default function Ssm() {
           </Grid>
         </div>
       </Grid>
+      <span id="product"></span>
     </>
   );
 }

@@ -15,7 +15,7 @@ export default function AboutUs() {
       >
         <div className={styles.container}>
           <Grid item xs={12}>
-            <h5 className={styles.subheading} id="aboutUs">About us</h5>
+            <h5 className={styles.subheading} >About us</h5>
           </Grid>
           <Grid item xs={12}>
             <div className={styles.description}>
@@ -70,6 +70,7 @@ export default function AboutUs() {
           </Grid>
         </div>
       </Grid>
+      <span id="vision"></span>
     </>
   );
 }

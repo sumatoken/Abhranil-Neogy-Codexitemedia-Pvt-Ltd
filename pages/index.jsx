@@ -97,6 +97,7 @@ export default function Home() {
           <img className={styles.image} src="/logs.jpg" width="100%" />
         </Grid>
       </Grid>
+      <span id="aboutUs"></span>
       {/*   <div className={styles.container}>
         <Fade>
           <main className={styles.description} style={{ marginBottom: "25px" }}>

@@ -30,7 +30,7 @@ export default function Market() {
     "Maldives",
   ];
   return (
-    <div id="market" className="w-full">
+    <div className="w-full">
       <h5 className={styles.subheading}>Export Market</h5>
       <div className="w-full grid grid-cols-2 md:grid-cols-4 content-center">
         {countries.map((country, key) => (
@@ -40,6 +40,7 @@ export default function Market() {
           </div>
         ))}
       </div>
+      <span id="gallery"></span>
     </div>
   );
 }

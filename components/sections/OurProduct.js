@@ -5,11 +5,11 @@ import React from "react";
 export default function OurProduct() {
   return (
     <>
-      <span></span>
+      
 
       <div className="bg-[#F1E5AC] w-full h-full p-0 m-0">
         <h5 className={styles.subheading}>
-          <b id="product">Our Products</b>
+          <b>Our Products</b>
         </h5>
       </div>
       <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
@@ -81,6 +81,7 @@ export default function OurProduct() {
           </div>
         </div>
       </div>
+      <span id="market"></span>
     </>
   );
 }
