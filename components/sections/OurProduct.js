@@ -4,8 +4,9 @@ import React from "react";
 
 export default function OurProduct() {
   return (
-    <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
+   <>
       <h5 className={styles.subheading} id="">Our Products</h5>
+    <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
       <div className="w-full p-4 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
         <span className={styles.subtitle}>
           Malaysian Tropical Timber Product
@@ -62,5 +63,6 @@ export default function OurProduct() {
         </div>
       </div>
     </div>
+   </>
   );
 }
