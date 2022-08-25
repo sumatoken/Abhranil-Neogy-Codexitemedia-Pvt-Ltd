@@ -13,6 +13,7 @@ export default function Ssm() {
         alignItems="center"
         justifyContent="center"
       >
+        
         <div className={styles.container}>
           <Grid item xs={12}>
             <h5 className={styles.subheading}>Company SSM & info</h5>
