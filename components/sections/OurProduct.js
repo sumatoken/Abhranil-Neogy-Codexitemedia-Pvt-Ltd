@@ -7,13 +7,13 @@ export default function OurProduct() {
     <>
       
 
-      <div className="bg-[#F1E5AC] w-full h-full p-0 m-0">
+      <div className=" w-full h-full p-0 m-0">
         <h5 className={styles.subheading}>
-          <b>Our Products</b>
+          <b className="text-black">Our Products</b>
         </h5>
       </div>
       <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
-        <div className="w-full p-4 mr-1 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
+        <div className="w-full p-4 m-1 rounded-lg bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
           <span className={styles.subtitle}>
             <b className="text-black"> Malaysian Tropical Timber Product</b>
           </span>
@@ -50,7 +50,7 @@ export default function OurProduct() {
             compliance to the MTIB specifications.
           </div>
         </div>
-        <div className="w-full p-4 ml-1 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
+        <div className="w-full p-4 m-1 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
           <span className={styles.subtitle}>
             {" "}
             <b className="text-black">Palm Tree Based Products </b>
