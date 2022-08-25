@@ -9,7 +9,7 @@ export default function Ssm() {
     
       <Grid        container
         spacing={1}
-        sx={{ background: "#F1E5AC", display: "flex", marginTop: "50px", paddingTop: "50px" }}
+        sx={{ background: "#F1E5AC", display: "flex", paddingTop: "50px" }}
         alignItems="center"
         justifyContent="center"
       >

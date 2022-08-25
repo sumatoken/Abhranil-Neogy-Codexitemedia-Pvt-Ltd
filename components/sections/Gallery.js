@@ -14,7 +14,7 @@ export default function Gallery() {
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
   return (
-    <div className="w-full pt-[50px] mt-[50px]">
+    <div className="w-full pt-[50px] ">
       <h5 className={styles.subheading}>Gallery</h5>
       <Grid
 
