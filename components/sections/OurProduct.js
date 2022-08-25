@@ -18,13 +18,7 @@ export default function OurProduct() {
             <b className="text-black"> Malaysian Tropical Timber Product</b>
           </span>
           <div className="flex flex-wrap gap-1 justify-between p-2">
-            <span className="rounded-lg px-2 bg-amber-700 text-white">
-              Sawn timber
-            </span>
-            <span className="rounded-lg px-2 bg-amber-700 text-white">
-              Polywood
-            </span>
-            <span className="rounded-lg px-2 bg-amber-700 text-white">MDF</span>
+           
             <span className="rounded-lg px-2 bg-amber-700 text-white">
               {" "}
               Customize Pallet
@@ -36,6 +30,13 @@ export default function OurProduct() {
             <span className="rounded-lg px-2 bg-amber-700 text-white">
               Sawdust wood pellet
             </span>
+            <span className="rounded-lg px-2 bg-amber-700 text-white">
+              Sawn timber
+            </span>
+            <span className="rounded-lg px-2 bg-amber-700 text-white">
+              Polywood
+            </span>
+            <span className="rounded-lg px-2 bg-amber-700 text-white">MDF</span>
           </div>
           <div className={styles.description}>
             Import and export of Malaysian tropical wood based products. We are
@@ -56,10 +57,10 @@ export default function OurProduct() {
           </span>
           <div className="flex flex-wrap gap-1 p-2">
             <span className="rounded-lg px-2 bg-amber-700 text-white">
-              Palm Kernel Shell
+              Palm Kernel Cake/ Palm Kernel Expeller
             </span>
             <span className="rounded-lg px-2 bg-amber-700 text-white">
-              Palm Kernel Cake/ Palm Kernel Expeller
+              Palm Kernel Shell
             </span>
             <span className="rounded-lg px-2 bg-amber-700 text-white">
               Empty Fruit Bunch Pellet
