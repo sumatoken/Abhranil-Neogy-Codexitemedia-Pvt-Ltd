@@ -50,7 +50,7 @@ export default function OurProduct() {
             compliance to the MTIB specifications.
           </div>
         </div>
-        <div className="w-full p-4 m-1 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
+        <div className="w-full p-4 mt-1 ml-1 mb-1 mr-0 rounded bg-[#F1E5AC] flex flex-col md:w-1/2 lg:width-1/2 xl:width-1/2">
           <span className={styles.subtitle}>
             {" "}
             <b className="text-black">Palm Tree Based Products </b>
