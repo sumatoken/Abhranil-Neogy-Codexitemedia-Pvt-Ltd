@@ -6,7 +6,10 @@ import styles from "../../styles/Home.module.scss";
 export default function CorporateInfo() {
   return (
     <>
-    <div className="w-full flex items-center align-center justify-center">
+    <div className="w-full bg-[#F1E5AC]  pt-[50px] mt-[50px] flex items-center align-center justify-center">
+    <h5 className={styles.subheading}>
+        Corporate Information
+      </h5>
     <table class="table-fixed">
         <tbody>
           <tr>
@@ -120,22 +123,11 @@ export default function CorporateInfo() {
           </span>
             </td>
           </tr>
+        
           <tr>
-            <td>
-            <span className={styles.subtitle}>
-            <b>Email Add:</b>
-          </span>
-            </td>
             <td>
             <span className={styles.subtitle}>
             <b>Bank Facilities:</b>
-          </span>
-            </td>
-          </tr>
-          <tr>
-            <td>
-            <span className={styles.subtitle}>
-            <b>Email Add:</b>
           </span>
             </td>
             <td>
