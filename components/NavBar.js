@@ -178,13 +178,13 @@ const NavBar = () => {
       if (window.scrollY > 1) {
         setPadding("0px");
         setFontSize("0.9em");
-        setImageWidth("45%");
-        setImageHeight("40%");
+        setImageWidth("60%");
+        setImageHeight("45%");
       } else {
         setPadding("10px");
         setFontSize("1em");
-        setImageWidth("65%");
-        setImageHeight("60%");
+        setImageWidth("75%");
+        setImageHeight("65%");
       }
     };
 
