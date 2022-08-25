@@ -8,10 +8,12 @@ import Link from "next/link";
 import Image from "next/image";
 export default function OurDirectors() {
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row   mt-4">
+   <>
+   
        <h5 className={styles.subheading}>
           <b>Our Directors</b>
         </h5>
+   <div className="flex flex-col md:flex-row lg:flex-row   mt-4">
       <div
         className="w-full flex flex-col border rounded-lg border-yellow-300 p-4"
         style={{
@@ -166,7 +168,8 @@ export default function OurDirectors() {
           <Link href="https://www.auricasia.com.my">www.auricasioa.com.my</Link>
         </div>
       </div>
-      <span id="ssm"></span>
     </div>
+      <span id="ssm"></span>
+   </>
   );
 }
