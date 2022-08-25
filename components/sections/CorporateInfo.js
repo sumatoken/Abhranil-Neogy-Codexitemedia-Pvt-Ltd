@@ -48,8 +48,8 @@ export default function CorporateInfo() {
           <span className="text-base text-yellow-700">
             {" "}
             <b>
-              No.1-11, SUITE 43A, Sentral Business Suites, Jalan TKS 1, 43000
-              Kajang, Selangor Darul Ehsan, Malaysia
+              No.1-11, SUITE 43A,  Sentral <br/> Business Suites, Jalan TKS 1, <br />43000
+              Kajang, Selangor Darul<br/> Ehsan, Malaysia
             </b>
           </span>
         </div>
