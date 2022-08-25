@@ -84,6 +84,9 @@ export default function Home() {
             Learn More
           </Button>
         </Grid>
+
+        <span id="aboutUs"></span>
+
         <Grid
           item
           xs={12}

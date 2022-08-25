@@ -9,7 +9,7 @@ export default function OurProduct() {
 
       <div className=" w-full h-full p-0 m-0">
         <h5 className={styles.subheading}>
-          <b className="text-black">Our Products</b>
+          <b>Our Products</b>
         </h5>
       </div>
       <div className="w-full flex flex-col md:flex-row lg:flex-row xl:flex-row">
