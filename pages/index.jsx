@@ -158,10 +158,9 @@ export default function Home() {
           
       </Fade>
       <Fade>
-        <div id="product">
+        
 
         <OurProduct />
-        </div>
       </Fade>
       <Fade>
         <div id="market">
