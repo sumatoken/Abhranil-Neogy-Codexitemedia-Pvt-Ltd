@@ -28,8 +28,9 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function Core() {
   return (
     <>
+    <span id="core"></span>
       <Grid
-        id="core"
+      
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}

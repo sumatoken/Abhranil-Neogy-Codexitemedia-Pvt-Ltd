@@ -6,9 +6,8 @@ import styles from "../../styles/Home.module.scss";
 export default function Ssm() {
   return (
     <>
-      <Grid
-        id="ssm"
-        container
+    <span id="ssm"></span>
+      <Grid        container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}
         alignItems="center"

@@ -14,10 +14,10 @@ export default function Gallery() {
   const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
   return (
-    <>
+    <><span id="gallery"></span>
       <h5 className={styles.subheading}>Gallery</h5>
       <Grid
-        id="gallery"
+
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}

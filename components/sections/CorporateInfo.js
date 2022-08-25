@@ -6,7 +6,8 @@ import styles from "../../styles/Home.module.scss";
 export default function CorporateInfo() {
   return (
     <>
-      <h5 id="corpInfo" className={styles.subheading}>
+    <span id="corpInfo"></span>
+      <h5 className={styles.subheading}>
         Corporate Information
       </h5>
       <div className="flex flex-col items-center gap-4">

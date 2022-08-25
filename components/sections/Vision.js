@@ -25,8 +25,8 @@ export default function Vision() {
 
   return (
     <>
+    <span id="vission"></span>
       <Grid
-        id="vision"
         container
         spacing={1}
         sx={{ background: "#F1E5AC", display: "flex" }}
