@@ -5,7 +5,7 @@ export default function AboutUs() {
   return (
     <>
       <div
-        className="bg-[#F1E5AC] h-screen pt-[33px]"
+        className="bg-[#F1E5AC] h-screen pt-[60px]"
        
       >
         <div className={styles.container}>

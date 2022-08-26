@@ -20,13 +20,15 @@ const Card = ({ title, employee }) => {
 };
 export default function Chart() {
   return (
-    <div className={styles.description} style={{ background: "#F1E5AC"  }}>
+    <div className={styles.description} style={{ background: "#F1E5AC",
+    paddingTop: "30px",
+      }}>
       
       <div id="chart" className="z-10 flex flex-col gap-8 items-center p-2">
         <div className="w-full mb-[100px] p-[38px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
         </div>
-        <div className="z-0 mb-[-650px] hidden md:hidden lg:block xl:block">
+        <div className="z-0 mb-[-350px] hidden md:hidden lg:block xl:block">
           <Image src={`/frame.png`} width={1000} height={220} />
         </div>
         <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
