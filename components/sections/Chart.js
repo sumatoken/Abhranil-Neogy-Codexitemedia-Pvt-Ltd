@@ -29,7 +29,7 @@ export default function Chart() {
         <div className="z-0 mb-[-650px] hidden md:hidden lg:block xl:block">
           <Image src={`/frame.png`} width={1000} height={500} />
         </div>
-        <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
+        <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 mt-2">
           <span className={styles.subtitle}>
             <b>Board Of Directors</b>
           </span>
