@@ -25,7 +25,7 @@ export default function Chart() {
       }}>
       
       <div id="chart" className="z-10 flex flex-col gap-7 items-center">
-        <div className="w-full mb-[100px] pt-[38px]">
+        <div className="w-full mb-[100px] pt-[50px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
         </div>
         <div className="z-0 mb-[-476px] hidden md:hidden lg:block xl:block">
