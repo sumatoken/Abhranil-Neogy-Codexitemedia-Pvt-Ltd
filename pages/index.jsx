@@ -127,7 +127,7 @@ export default function Home() {
         </Fade>
       </div> */}
       <span id="aboutUs"></span>
-     <div className={styles.wrapper}>
+     <div className="p-[15px] bg-[#F1E5AC] min-h-screen flex flex-col ">
      <Fade>
         <AboutUs />
       </Fade>
