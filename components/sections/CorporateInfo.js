@@ -10,7 +10,7 @@ export default function CorporateInfo() {
     <h5 className={styles.subheading}>
         Corporate Information
       </h5>
-    <table class="table-fixed">
+    <table class="table-fixed corp">
         <tbody>
           <tr>
             <td>
