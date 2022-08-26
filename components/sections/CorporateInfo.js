@@ -140,7 +140,7 @@ export default function CorporateInfo() {
         </tbody>
       </table>
     </div>
-      <span id="chart"></span>
+     
     </>
   );
 }
