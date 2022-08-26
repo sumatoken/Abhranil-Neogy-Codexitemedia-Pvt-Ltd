@@ -6,7 +6,7 @@ import styles from "../../styles/Home.module.scss";
 export default function CorporateInfo() {
   return (
     <>
-    <div className="w-full bg-[#F1E5AC]  pt-[50px] flex flex-col items-center align-center justify-center">
+    <div className="w-full h-screen bg-[#F1E5AC]  pt-[50px] flex flex-col items-center align-center justify-center">
     <h5 className={styles.subheading}>
         Corporate Information
       </h5>
