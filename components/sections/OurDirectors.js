@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function OurDirectors() {
   return (
     <>
-      <div className="w-full pt-[100px]">
+      <div className="w-full pt-[140px]">
         <h5 className={styles.subheading}>
           <b>Our Directors</b>
         </h5>
