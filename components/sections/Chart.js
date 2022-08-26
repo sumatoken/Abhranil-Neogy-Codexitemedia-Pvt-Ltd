@@ -25,10 +25,10 @@ export default function Chart() {
       }}>
       
       <div id="chart" className="z-10 flex flex-col gap-5 items-center">
-        <div className="w-full mb-[40px] pt-[50px]">
+        <div className="w-full mb-[25px] pt-[50px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
         </div>
-        <div className="z-0 mb-[-400px] hidden md:hidden lg:block xl:block">
+        <div className="z-0 mb-[-412px] hidden md:hidden lg:block xl:block">
           <Image src={`/frame.png`} width={1000} height={380} />
         </div>
         <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
