@@ -21,7 +21,7 @@ export default function OurDirectors() {
             }}
           >
             <div className="flex flex-col md:flex-row lg:flex-row gap-2 items-center align-center justify-center">
-              <div className="flex flex-col border-yellow-300 border-r-4">
+              <div className="flex flex-col border-yellow-300 xs:border-b-4 md:border-r-4 lg:border-r-4 xl:border-r-4">
                 <span className={styles.subtitle}>SARAVANAN.M@RAM</span>
                 <b>Managing Director</b>
               </div>
@@ -100,7 +100,7 @@ export default function OurDirectors() {
             }}
           >
             <div className="flex flex-col md:flex-row lg:flex-row gap-2 items-center align-center justify-center">
-              <div className="flex flex-col border-yellow-300 border-b-4 md:border-r-4 lg:border-r-4">
+              <div className="flex flex-col border-yellow-300 xs:border-b-4 md:border-r-4 lg:border-r-4 xl:border-r-4">
                 <span className={styles.subtitle}>K.S.KAMALA SEELAN</span>
                 <b>Operations Director</b>
               </div>
