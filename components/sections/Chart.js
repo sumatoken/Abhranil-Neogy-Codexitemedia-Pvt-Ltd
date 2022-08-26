@@ -12,7 +12,7 @@ const Card = ({ title, employee }) => {
         <b>{employee}</b>
       </div>
       <div
-        className="z-0 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 rounded-lg mt-[-100px] mr-20  h-28"
+        className="z-0 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 rounded-lg mt-[-100px] mr-20  h-[5rem]"
         style={{ backgroundColor: "#e9bf35" }}
       ></div>
     </>
@@ -22,12 +22,12 @@ export default function Chart() {
   return (
     <div className={styles.description} style={{ background: "#F1E5AC"  }}>
       
-      <div id="chart" className="z-10 flex flex-col gap-4 items-center p-2">
-        <div className="w-full mb-[100px]">
+      <div id="chart" className="z-10 flex flex-col gap-8 items-center p-2">
+        <div className="w-full mb-[100px] p-[38px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
         </div>
         <div className="z-0 mb-[-650px] hidden md:hidden lg:block xl:block">
-          <Image src={`/frame.png`} width={1000} height={500} />
+          <Image src={`/frame.png`} width={1000} height={370} />
         </div>
         <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
           <span className={styles.subtitle}>
@@ -38,7 +38,7 @@ export default function Chart() {
         </div>
 
         <div
-          className="z-0 rounded-lg mt-[-120px] ml-[-80px] w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-32 "
+          className="z-0 rounded-lg mt-[-120px] ml-[-80px] w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-[7rem] "
           style={{ backgroundColor: "#e9bf35" }}
         ></div>
         <Card title="Managing Director" employee="Mr. M.Saravanan" />
