@@ -24,8 +24,8 @@ export default function Chart() {
     paddingTop: "50px",
       }}>
       
-      <div id="chart" className="z-10 flex flex-col gap-7 items-center">
-        <div className="w-full mb-[100px] pt-[50px]">
+      <div id="chart" className="z-10 flex flex-col gap-5 items-center">
+        <div className="w-full mb-[40px] pt-[50px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
         </div>
         <div className="z-0 mb-[-476px] hidden md:hidden lg:block xl:block">
