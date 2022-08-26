@@ -127,7 +127,7 @@ export default function Home() {
         </Fade>
       </div> */}
       <span id="aboutUs"></span>
-     <div className="p-[30px] bg-[#F1E5AC] min-h-screen flex flex-col shrink-0 ">
+     <div className="p-[35px] bg-[#F1E5AC] min-h-screen flex flex-col shrink-0 ">
      <Fade>
         <AboutUs />
       </Fade>
