@@ -9,7 +9,7 @@ export default function AboutUs() {
        
         container
         spacing={1}
-        sx={{ background: "#F1E5AC", display: "flex", paddingTop: "50px" }}
+        sx={{ background: "#F1E5AC", display: "flex", paddingTop: "50px",  height: "100vh" }}
         alignItems="center"
         justifyContent="center"
       >

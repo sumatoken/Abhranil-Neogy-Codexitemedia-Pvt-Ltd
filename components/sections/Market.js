@@ -31,7 +31,7 @@ export default function Market() {
   ];
   return (
     
-    <div className="w-full  pt-[50px] ">
+    <div className="w-full h-screen pt-[50px] ">
       <h5 className={styles.subheading}>Export Market</h5>
       <div className="w-full grid grid-cols-2 md:grid-cols-4 content-center">
         {countries.map((country, key) => (
