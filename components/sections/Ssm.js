@@ -12,7 +12,7 @@ export default function Ssm() {
         sx={{ background: "#F1E5AC", display: "flex" }}
         alignItems="center"
         justifyContent="center"
-        paddingTop="50px"
+        paddingTop="60px"
       >
         
         <div className={styles.container}>
