@@ -40,8 +40,7 @@ export default function OurProduct() {
             <span className="rounded-xl px-3 bg-amber-600 text-white">MDF</span>
           </div>
           <div className={styles.description}>
-            Import and export of Malaysian tropical wood based products. We are
-            a reputable sawn timber supplier in Malaysia since 2008. in the span
+           We are a reputable sawn timber supplier in Malaysia since 2008. in the span
             of over a decade, we have specialized in sourcing and supplying sawn
             timber across and beyond Malaysia, reaching international waters. We
             have exported our timber products to the Middle East, Europe and

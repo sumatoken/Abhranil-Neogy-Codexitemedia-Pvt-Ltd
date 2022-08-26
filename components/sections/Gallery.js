@@ -15,7 +15,7 @@ export default function Gallery() {
 
   return (
     <div className="w-full pt-[50px] ">
-      <h5 className={styles.subheading}>Gallery</h5>
+      <h5 className={styles.subheading} style={{paddingBottom: "12px"}}>Gallery</h5>
       <Grid
 
         container
