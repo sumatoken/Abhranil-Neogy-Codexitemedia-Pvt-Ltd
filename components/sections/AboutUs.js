@@ -14,7 +14,8 @@ export default function AboutUs() {
           </div>
           <div>
             <div className={styles.description}>
-            Auric Asia PLT was registered under Limited Liability Partnerships Act 2012 on 26
+           <div className="text-left">
+           Auric Asia PLT was registered under Limited Liability Partnerships Act 2012 on 26
 June 2018. Initially Auric Asia PLT started off as a timber supplier, specializing in
 Malaysian Sawn Timber. Over the years, we grew as a company, diversifying in
 not only in the wood and timber business but also by providing resource services
@@ -39,6 +40,7 @@ With our stringent management, we are committed to be continuously at the
 forefront in the efforts to conserve our natural resources and to preserve the
 environment, and ready to take on more challenges make today happen and
 better the future.
+           </div>
             </div>
           </div>
         </div>
