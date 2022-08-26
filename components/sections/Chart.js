@@ -28,8 +28,8 @@ export default function Chart() {
         <div className="w-full mb-[40px] pt-[50px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
         </div>
-        <div className="z-0 mb-[-476px] hidden md:hidden lg:block xl:block">
-          <Image src={`/frame.png`} width={1000} height={420} />
+        <div className="z-0 mb-[-400px] hidden md:hidden lg:block xl:block">
+          <Image src={`/frame.png`} width={1000} height={380} />
         </div>
         <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
           <span className={styles.subtitle}>
@@ -40,7 +40,7 @@ export default function Chart() {
         </div>
 
         <div
-          className="z-0 rounded-lg mt-[-120px] ml-[-80px] w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-[7rem] "
+          className="z-0 rounded-lg mt-[-99px] ml-[-80px] w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-[5.5rem] "
           style={{ backgroundColor: "#e9bf35" }}
         ></div>
         <Card title="Managing Director" employee="Mr. M.Saravanan" />
