@@ -13,13 +13,13 @@ export default function CorporateInfo() {
     <table class="table-fixed corp">
         <tbody>
           <tr>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className={styles.subtitle}>
                 <b>SSM Registration:</b>
               </span>
             </td>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className="text-base text-yellow-700">
                 {" "}
@@ -28,13 +28,13 @@ export default function CorporateInfo() {
             </td>
           </tr>
           <tr>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className={styles.subtitle}>
                 <b>Date Of Incorporation:</b>
               </span>
             </td>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className="text-base text-yellow-700">
                 {" "}
@@ -43,13 +43,13 @@ export default function CorporateInfo() {
             </td>
           </tr>
           <tr>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className={styles.subtitle}>
                 <b>Board Of Directors:</b>
               </span>
             </td>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className="text-base text-yellow-700">
                 {" "}
@@ -61,12 +61,12 @@ export default function CorporateInfo() {
             </td>
           </tr>
           <tr>
-            <td>
+            <td className="p-[15px]">
             <span className={styles.subtitle}>
             <b>Business Address:</b>
           </span>
             </td>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className="text-base text-yellow-700">
             {" "}
@@ -78,12 +78,12 @@ export default function CorporateInfo() {
             </td>
           </tr>
           <tr>
-            <td>
+            <td className="p-[15px]">
             <span className={styles.subtitle}>
             <b>Office No:</b>
           </span>
             </td>
-            <td>
+            <td className="p-[15px]">
             <span className="text-base text-yellow-700">
             {" "}
             <Link href="tel:+60387427681">
@@ -93,12 +93,12 @@ export default function CorporateInfo() {
             </td>
           </tr>
           <tr>
-            <td>
+            <td className="p-[15px]">
             <span className={styles.subtitle}>
             <b>Email Add:</b>
           </span>
             </td>
-            <td>
+            <td className="p-[15px]">
               {" "}
               <span className="text-base text-yellow-700">
             {" "}
@@ -109,12 +109,12 @@ export default function CorporateInfo() {
             </td>
           </tr>
           <tr>
-            <td>
+            <td className="p-[15px]">
             <span className={styles.subtitle}>
             <b>Website:</b>
           </span>
             </td>
-            <td>
+            <td className="p-[15px]">
             <span className="text-base text-yellow-700">
             {" "}
             <Link href="https://www.auricasia.com.my">
@@ -125,12 +125,12 @@ export default function CorporateInfo() {
           </tr>
         
           <tr>
-            <td>
+            <td className="p-[15px]">
             <span className={styles.subtitle}>
             <b>Bank Facilities:</b>
           </span>
             </td>
-            <td>
+            <td className="p-[15px]">
             <span className="text-base text-yellow-700">
             {" "}
             <b> CIMB Bank Berhad, Malaysia</b>

@@ -127,7 +127,8 @@ export default function Home() {
         </Fade>
       </div> */}
       <span id="aboutUs"></span>
-      <Fade>
+     <div className={styles.wrapper}>
+     <Fade>
         <AboutUs />
       </Fade>
       <Fade>
@@ -157,6 +158,7 @@ export default function Home() {
       <Fade>
         <Gallery />
       </Fade>
+     </div>
     </>
   );
 }
