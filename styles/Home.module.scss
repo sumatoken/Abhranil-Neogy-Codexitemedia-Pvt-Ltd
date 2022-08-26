@@ -29,11 +29,11 @@ div.corp>td{
 
 .description {
   text-align: center;
-  padding: 18px;
+  padding: 0;
   margin-top: 2rem;
-  line-height: 1.5;
-  font-size: 1.5rem;
-  color: rgb(34, 30, 30);
+  line-height: 1;
+  font-size: 1rem;
+  color: rgb(34, 30, 30); 
 }
 
 .wrapper {
@@ -43,16 +43,15 @@ div.corp>td{
 .heading {
   // margin: 4rem 0;
  
-  font-size: 6vw;
+  font-size: 5vw;
   color: $secondary;
-  margin: 0.5vw;
 }
 
 
 
 .subheading {
   text-align: center;
-  font-size: 4vw;
+  font-size: 3vw;
   font-weight: bold;
     color: $secondary;
 
@@ -62,17 +61,17 @@ div.corp>td{
 .subtitle {
     text-align: center;
     font-weight: bolder;
-    font-size: 1.5vw;
+    font-size: 1vw;
     color: $secondary;
  
     margin: 0.5vw;
   }
   .address {
     text-align: center;
-      font-size: 1.6vw;
+      font-size: 1vw;
       color: $secondary;
 
-      margin-top: 12px;
+    
      }
 
 .left{
