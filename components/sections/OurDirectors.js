@@ -89,7 +89,7 @@ export default function OurDirectors() {
               <b>Auric Asia PLT</b>
               <span>LLP0016968-LGN</span>
               <Link href="https://www.auricasia.com.my">
-                www.auricasioa.com.my
+                www.auricasia.com.my
               </Link>
             </div>
           </div>
@@ -168,7 +168,7 @@ export default function OurDirectors() {
               <b>Auric Asia PLT</b>
               <span>LLP0016968-LGN</span>
               <Link href="https://www.auricasia.com.my">
-                www.auricasioa.com.my
+              www.auricasia.com.my
               </Link>
             </div>
           </div>
