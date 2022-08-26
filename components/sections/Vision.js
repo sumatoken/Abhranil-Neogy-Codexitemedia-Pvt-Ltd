@@ -29,7 +29,7 @@ export default function Vision() {
       <Grid
         container
         spacing={1}
-        sx={{ background: "#F1E5AC", display: "flex", paddingTop: "50px",  height: "100vh" }}
+        sx={{ background: "#F1E5AC", display: "flex",  height: "100vh" }}
         alignItems="center"
         justifyContent="center"
       >
