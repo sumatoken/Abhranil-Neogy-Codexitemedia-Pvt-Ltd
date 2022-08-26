@@ -21,7 +21,7 @@ const Card = ({ title, employee }) => {
 export default function Chart() {
   return (
     <div className={styles.description} style={{ background: "#F1E5AC",
-    paddingTop: "90px",
+    paddingTop: "110px",
       }}>
       
       <div id="chart" className="z-10 flex flex-col gap-5 items-center">
