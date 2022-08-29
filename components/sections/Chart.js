@@ -5,14 +5,14 @@ import styles from "../../styles/Home.module.scss";
 const Card = ({ title, employee }) => {
   return (
     <>
-      <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-2">
+      <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col p-2 bg-white items-center rounded-lg border border-gold-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 m-2">
         <span className={styles.subtitle}>
           <b>{title}</b>
         </span>
         <b>{employee}</b>
       </div>
       <div
-        className="z-0 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 rounded-lg mt-[-100px] mr-20  h-[5rem]"
+        className="z-0 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 rounded-lg mt-[-110px] mr-20  h-[5rem]"
         style={{ backgroundColor: "#e9bf35" }}
       ></div>
     </>
@@ -20,18 +20,18 @@ const Card = ({ title, employee }) => {
 };
 export default function Chart() {
   return (
-    <div className={styles.description} style={{ background: "#F1E5AC",
-    paddingTop: "110px",
-      }}>
-      
-      <div id="chart" className="z-10 flex flex-col gap-5 items-center">
+    <div
+      className={styles.description}
+      style={{ background: "#F1E5AC", paddingTop: "110px" }}
+    >
+      <div id="chart" className="z-10 flex flex-col gap-6 items-center">
         <div className="w-full mb-[25px] pt-[70px]">
           <h5 className={styles.subheading}>Management & Organisation Chart</h5>
         </div>
         <div className="z-0 mb-[-412px] hidden md:hidden lg:block xl:block">
           <Image src={`/frame.png`} width={1000} height={380} />
         </div>
-        <div className="z-10 w-full md:w-1/2 lg:w-1/2 xl:w-1/2 flex flex-col bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
+        <div className="z-10 w-full md:w-1/4 lg:w-1/4 xl:w-1/4 flex flex-col bg-white items-center rounded-lg border border-yellow-200 shadow-2xl shadow-yellow-300 ring-4 ring-gray-300 mt-2">
           <span className={styles.subtitle}>
             <b>Board Of Directors</b>
           </span>
@@ -40,7 +40,7 @@ export default function Chart() {
         </div>
 
         <div
-          className="z-0 rounded-lg mt-[-99px] ml-[-80px] w-full md:w-1/2 lg:w-1/2 xl:w-1/2 h-[5.5rem] "
+          className="z-0 rounded-lg mt-[-108px] ml-[-80px] w-full md:w-1/4 lg:w-1/4 xl:w-1/4 h-[5.5rem] "
           style={{ backgroundColor: "#e9bf35" }}
         ></div>
         <Card title="Managing Director" employee="Mr. M.Saravanan" />
