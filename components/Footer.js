@@ -26,6 +26,12 @@ const Footer = () => {
           <a target="__blank" href="/">
             <LinkedInIcon sx={{ color: "#0072b1" }} className={styles.icon} />
           </a>
+          <div target="__blank" href="/">
+            Designed and Developer by{" "}
+            <a target="__blank" href="https://www.codexitemedia.com">
+              Codexitemedia Pvt, Ltd
+            </a>
+          </div>
           {/* <a target='__blank' href='/'>
                         <GitHubIcon sx={{color: '#171515'}} className={styles.icon} />
                     </a> */}
